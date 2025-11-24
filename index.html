@@ -1,14 +1,14 @@
 <script type="importmap">
 {
   "imports": {
-    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
-    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.4.0",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "react": "https://aistudiocdn.com/react@^19.2.0",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^10.7.7",
-    "three": "https://aistudiocdn.com/three@^0.181.2"
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+    "three": "https://aistudiocdn.com/three@^0.181.2",
+    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.4.0",
+    "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^10.7.7"
   }
 }
 </script>
@@ -19,6 +19,5 @@ title: Sustainable IT: Il metodo pratico
 
 <div id="root"></div>
 
-<!-- Caricamento Applicazione React -->
-<script type="text/babel" data-type="module" src="assets/js/app.jsx"></script><link rel="stylesheet" href="/index.css">
-<script type="module" src="/index.tsx"></script>
+<!-- Caricamento Applicazione React con BaseURL di Jekyll -->
+<script type="text/babel" data-type="module" src="{{ site.baseurl }}/assets/js/app.jsx"></script>
