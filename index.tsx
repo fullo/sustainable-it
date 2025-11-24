@@ -1,20 +1,14 @@
+
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
-*/
+ * 
+ * DEPRECATED: This project has moved to a Jekyll static site architecture.
+ * The active logic is now in assets/js/islands.jsx loaded by index.html.
+ * This file is kept to prevent build errors if referenced by legacy configuration.
+ */
 
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+console.log("Legacy index.tsx loaded. Application is running in Static Mode via islands.jsx.");
 
-const rootElement = document.getElementById('root');
-if (!rootElement) {
-  throw new Error("Could not find root element to mount to");
-}
-
-const root = ReactDOM.createRoot(rootElement);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// No-op: Do not attempt to mount to #root
+export {};
