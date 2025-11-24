@@ -1,8 +1,23 @@
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.2.0",
+        "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+        "three": "https://esm.sh/three@0.166.1",
+        "@react-three/fiber": "https://esm.sh/@react-three/fiber@8.16.8?external=react,react-dom,three",
+        "@react-three/drei": "https://esm.sh/@react-three/drei@9.108.3?external=react,react-dom,three,@react-three/fiber",
+        "framer-motion": "https://esm.sh/framer-motion@11.3.2?external=react,react-dom",
+        "lucide-react": "https://esm.sh/lucide-react@0.414.0?external=react,react-dom"
+      }
+    }
+    </script>
+    <!-- Babel per compilare le "isole" React 
 ---
 layout: default
 title: Sustainable IT: Il metodo pratico
 description: Riduci l'impatto, ottimizza le risorse e guida la trasformazione sostenibile del digitale.
 ---
+-->
 
 <!DOCTYPE html>
 <html lang="it">
@@ -21,20 +36,7 @@ description: Riduci l'impatto, ottimizza le risorse e guida la trasformazione so
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <!-- Import Map per React/Three.js -->
-    <script type="importmap">
-    {
-      "imports": {
-        "react": "https://esm.sh/react@18.2.0",
-        "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
-        "three": "https://esm.sh/three@0.166.1",
-        "@react-three/fiber": "https://esm.sh/@react-three/fiber@8.16.8?external=react,react-dom,three",
-        "@react-three/drei": "https://esm.sh/@react-three/drei@9.108.3?external=react,react-dom,three,@react-three/fiber",
-        "framer-motion": "https://esm.sh/framer-motion@11.3.2?external=react,react-dom",
-        "lucide-react": "https://esm.sh/lucide-react@0.414.0?external=react,react-dom"
-      }
-    }
-    </script>
-    <!-- Babel per compilare le "isole" React -->
+
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
