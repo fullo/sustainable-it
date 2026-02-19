@@ -1,0 +1,304 @@
+{
+  "titolo": "Esercizio #1: Il Vero Costo del Software",
+  "sottotitolo": "Calcola l'impatto reale delle decisioni tecnologiche su Pianeta, Persone, Profitto",
+  "icona_esercizio": "🌍",
+  "durata": "30 minuti",
+  "partecipanti": "3-6 persone (Direttore Tecnologia, Responsabile Prodotto, Operazioni, Business)",
+  "carte": [
+    {
+      "titolo": "Database Sempre Acceso",
+      "icona": "💾",
+      "emoji": "📊",
+      "tipo": "SCENARIO",
+      "testo": "Il team ha installato un database in tempo reale che gira ventiquattro ore su ventiquattro per una funzionalità di analisi usata solo durante l'orario lavorativo dalle nove alle diciotto. Duecento interrogazioni al giorno, picco dalle dieci alle sedici. Nel resto del tempo rimane inattivo.",
+      "flavor": "\"È sempre acceso per essere pronto quando serve\"",
+      "classe": "scenario"
+    },
+    {
+      "titolo": "Notifiche Aggressive",
+      "icona": "📱",
+      "emoji": "🔔",
+      "tipo": "SCENARIO",
+      "testo": "Il team prodotto vuole inviare cinque notifiche push al giorno per aumentare il coinvolgimento. Il team marketing è entusiasta. Il team tecnico stima dieci milioni di notifiche al giorno con tasso di clic del due percento. Costo infrastruttura aggiuntivo ottomila euro al mese.",
+      "flavor": "\"Gli utenti adorano essere aggiornati in tempo reale!\"",
+      "classe": "scenario"
+    },
+    {
+      "titolo": "Video in Riproduzione Automatica",
+      "icona": "🎬",
+      "emoji": "▶️",
+      "tipo": "SCENARIO",
+      "testo": "Il designer propone un video in riproduzione automatica in qualità 4K nella pagina principale per creare effetto sorpresa. Il video pesa otto megabyte, la pagina riceve cinquecentomila visualizzazioni al mese. L'ottanta percento degli utenti chiude il video entro tre secondi. Traffico dati aggiuntivo quattro terabyte al mese.",
+      "flavor": "\"Il video racconta la nostra storia meglio di mille parole\"",
+      "classe": "scenario"
+    },
+    {
+      "titolo": "Motore di Raccomandazione Intelligente",
+      "icona": "🤖",
+      "emoji": "💡",
+      "tipo": "SCENARIO",
+      "testo": "Il team apprendimento automatico vuole aggiungere un motore di raccomandazione. L'addestramento del modello richiede duecento ore di calcolo GPU alla settimana. L'inferenza aggiunge cinquecento millisecondi di latenza. Precisione aumentata del tre percento rispetto a un algoritmo semplice che costa zero euro.",
+      "flavor": "\"L'intelligenza artificiale è il futuro, dobbiamo investire ora\"",
+      "classe": "scenario"
+    },
+    {
+      "titolo": "Architettura Eccessivamente Complessa",
+      "icona": "🏗️",
+      "emoji": "🔧",
+      "tipo": "SCENARIO",
+      "testo": "L'architetto vuole dividere l'applicazione monolitica in cinquanta microservizi per scalabilità futura. Il team è di quindici persone, gli utenti attuali sono diecimila. Ogni microservizio richiede contenitore dedicato, monitoraggio, registrazione eventi e backup.",
+      "flavor": "\"Dobbiamo essere pronti per quando arriveremo a un milione di utenti\"",
+      "classe": "scenario"
+    },
+    {
+      "titolo": "Conservazione Infinita dei Registri",
+      "icona": "📝",
+      "emoji": "♾️",
+      "tipo": "SCENARIO",
+      "testo": "Il team operazioni ha configurato la conservazione infinita dei registri applicativi per sicurezza. Due gigabyte di registri al giorno. Archiviazione totale settecentotrenta gigabyte all'anno. Nessuno consulta registri più vecchi di novanta giorni. Il regolamento europeo richiede minimizzazione dei dati.",
+      "flavor": "\"Non si sa mai quando potrebbero servire\"",
+      "classe": "scenario"
+    },
+    {
+      "titolo": "Modalità Scura Mancante",
+      "icona": "🌙",
+      "emoji": "🔆",
+      "tipo": "SCENARIO",
+      "testo": "L'applicazione mobile non ha la modalità scura. Il quaranta percento degli utenti usa l'applicazione di sera o di notte. Gli schermi OLED consumano il sessanta percento in più di energia in modalità chiara. Oltre duecento richieste utenti per la modalità scura. Tempo di sviluppo stimato una settimana.",
+      "flavor": "\"È nell'arretrato da due anni, ma non è prioritario\"",
+      "classe": "scenario"
+    },
+    {
+      "titolo": "Accessibilità Ignorata",
+      "icona": "♿",
+      "emoji": "👁️",
+      "tipo": "SCENARIO",
+      "testo": "Il sito web non rispetta le linee guida internazionali di accessibilità. Nessun supporto per lettori schermo, contrasto cromatico insufficiente, nessuna navigazione da tastiera. Il quindici percento degli utenti potenziali è escluso. Il principale concorrente ha certificazione di accessibilità.",
+      "flavor": "\"Gli utenti con disabilità non sono il nostro pubblico principale\"",
+      "classe": "scenario"
+    },
+    {
+      "titolo": "Rinnovo Dispositivi Ogni Due Anni",
+      "icona": "💻",
+      "emoji": "🔄",
+      "tipo": "SCENARIO",
+      "testo": "La politica aziendale prevede il rinnovo dei portatili ogni due anni per produttività. Duecento portatili totali. Costo milleduecento euro per portatile. Carbonio incorporato trecentocinquanta chilogrammi di CO2 equivalente per portatile. I portatili funzionano perfettamente dopo due anni.",
+      "flavor": "\"Gli sviluppatori meritano hardware di fascia alta\"",
+      "classe": "scenario"
+    },
+    {
+      "titolo": "Dipendenza da Fornitore Infrastruttura",
+      "icona": "🔒",
+      "emoji": "☁️",
+      "tipo": "SCENARIO",
+      "testo": "L'infrastruttura è completamente basata su servizi proprietari di un fornitore. La migrazione verso un concorrente è impossibile. Il fornitore aumenta i prezzi del quindici percento. Il team non può negoziare. Efficienza del centro dati del fornitore attuale uno virgola cinque contro uno virgola uno del concorrente.",
+      "flavor": "\"È lo standard di settore, perché complicarci la vita?\"",
+      "classe": "scenario"
+    },
+    {
+      "titolo": "Spreco Server Sempre Accesi",
+      "icona": "🌍",
+      "emoji": "⚡",
+      "tipo": "PIANETA",
+      "testo": "Ogni server che gira ventiquattro ore su ventiquattro quando potrebbe essere spento sedici ore al giorno produce cinquecento chilogrammi di CO2 equivalente all'anno e costa duemilaquattrocento euro all'anno in elettricità. Alternative disponibili: ridimensionamento automatico, spegnimento programmato, architettura senza server. Impatto: più cinquecento chilogrammi di CO2 equivalente all'anno per server.",
+      "flavor": "\"L'inattività costa quanto il picco, ma non produce valore\"",
+      "classe": "pianeta"
+    },
+    {
+      "titolo": "Carbonio dei Video Automatici",
+      "icona": "🌍",
+      "emoji": "🎬",
+      "tipo": "PIANETA",
+      "testo": "Video in riproduzione automatica non richiesto: otto megabyte per cinquecentomila visualizzazioni equivalgono a quattro terabyte di traffico al mese. Circa sei tonnellate di CO2 equivalente all'anno. Equivalente a venticinquemila chilometri in automobile. L'ottanta percento degli utenti chiude il video entro tre secondi, spreco puro. Impatto: più sei tonnellate di CO2 equivalente all'anno.",
+      "flavor": "\"Ogni megabyte trasferito ha un costo ambientale\"",
+      "classe": "pianeta"
+    },
+    {
+      "titolo": "Emissioni Addestramento Intelligenza Artificiale",
+      "icona": "🌍",
+      "emoji": "🤖",
+      "tipo": "PIANETA",
+      "testo": "Addestramento del modello di apprendimento automatico: duecento ore GPU alla settimana per cinquantadue settimane equivalgono a diecimilaquattrocento ore GPU all'anno. Circa cinquantadue tonnellate di CO2 equivalente all'anno in centro dati medio. Equivalente alle emissioni annuali di cinque cittadini europei. Ritorno del modello: più tre percento di precisione. Impatto: più cinquantadue tonnellate di CO2 equivalente all'anno.",
+      "flavor": "\"L'intelligenza artificiale ha un'impronta carbonica nascosta enorme\"",
+      "classe": "pianeta"
+    },
+    {
+      "titolo": "Carbonio Incorporato nei Portatili",
+      "icona": "🌍",
+      "emoji": "💻",
+      "tipo": "PIANETA",
+      "testo": "Carbonio incorporato in un portatile: trecentocinquanta chilogrammi di CO2 equivalente. L'ottanta percento delle emissioni avviene nella produzione, il venti percento durante l'utilizzo. Estendere il ciclo di vita da due a cinque anni risparmia centoquaranta chilogrammi di CO2 equivalente per portatile all'anno. Per una flotta di duecento portatili: meno ventotto tonnellate all'anno. Impatto: meno ventotto tonnellate di CO2 equivalente all'anno per flotta di duecento dispositivi.",
+      "flavor": "\"Comprare meno è più sostenibile che comprare efficiente\"",
+      "classe": "pianeta"
+    },
+    {
+      "titolo": "Impatto Efficienza Centro Dati",
+      "icona": "🌍",
+      "emoji": "🏢",
+      "tipo": "PIANETA",
+      "testo": "Efficienza utilizzo energia del centro dati: rapporto tra energia totale ed energia informatica. Efficienza uno virgola cinque significa che il cinquanta percento dell'energia è sprecata in raffreddamento. Regione con efficienza uno virgola cinque contro uno virgola uno significa meno ventisette percento di emissioni per lo stesso carico di lavoro. Impatto: meno ventisette percento di emissioni con efficienza migliore.",
+      "flavor": "\"Il centro dati più efficiente è il primo passo\"",
+      "classe": "pianeta"
+    },
+    {
+      "titolo": "Spreco Archiviazione Registri",
+      "icona": "🌍",
+      "emoji": "📝",
+      "tipo": "PIANETA",
+      "testo": "Conservazione infinita dei registri: due gigabyte al giorno equivalgono a settecentotrenta gigabyte all'anno. Archiviazione produce circa trecento chilogrammi di CO2 equivalente all'anno. Conservazione di novanta giorni invece di infinita riduce del settantacinque percento lo spazio e risparmia duecentoventicinque chilogrammi di CO2 equivalente all'anno. Bonus: conformità normativa migliorata. Impatto: meno duecentoventicinque chilogrammi di CO2 equivalente all'anno con politica di conservazione.",
+      "flavor": "\"Meno dati uguale meno archiviazione uguale meno energia uguale meno carbonio\"",
+      "classe": "pianeta"
+    },
+    {
+      "titolo": "Inferno Reperibilità Esaurimento",
+      "icona": "👥",
+      "emoji": "🚨",
+      "tipo": "PERSONE",
+      "testo": "Funzionalità con difetti equivale a più di dieci allarmi a notte. Sviluppatori svegliati tre quattro volte alla settimana. Indice di esaurimento più tre su dieci. Rischio abbandono più quindici percento. Costo sostituzione cinquantamila euro per persona. Morale del team in collasso. Impatto: esaurimento più tre su dieci, abbandono più quindici percento.",
+      "flavor": "\"Nessuno dovrebbe essere svegliato alle tre di notte per un difetto\"",
+      "classe": "persone"
+    },
+    {
+      "titolo": "Esclusione per Mancanza Accessibilità",
+      "icona": "👥",
+      "emoji": "♿",
+      "tipo": "PERSONE",
+      "testo": "Nessuna conformità alle linee guida di accessibilità: il quindici percento della popolazione europea con disabilità è esclusa. Ricavi persi: quindici percento di cinquantamila utenti obiettivo equivalgono a settemilacinquecento utenti per centoventi euro all'anno, novecentomila euro all'anno. Investimento per accessibilità quindicimila euro. Ritorno dell'investimento sessanta volte. Impatto: più settemilacinquecento utenti, più novecentomila euro all'anno di ricavi.",
+      "flavor": "\"L'inclusione non è beneficenza, è intelligenza aziendale\"",
+      "classe": "persone"
+    },
+    {
+      "titolo": "Affaticamento da Notifiche",
+      "icona": "👥",
+      "emoji": "🔔",
+      "tipo": "PERSONE",
+      "testo": "Cinque notifiche aggressive al giorno: irritazione utenti più quaranta percento, tasso di disinstallazione applicazione più venticinque percento, danno alla percezione del marchio. Tasso di clic delle notifiche: due percento. Costo: irritare il novantotto percento degli utenti per raggiungere il due percento. Impatto: abbandono più venticinque percento, danno al marchio.",
+      "flavor": "\"L'attenzione è una risorsa finita, sprecarla è rischioso\"",
+      "classe": "persone"
+    },
+    {
+      "titolo": "Privacy e Accumulo Dati",
+      "icona": "👥",
+      "emoji": "🔐",
+      "tipo": "PERSONE",
+      "testo": "Cinquanta dati raccolti per utente, conservazione per sempre. Rischio normativa europea: multe fino a venti milioni di euro o quattro percento del fatturato. Danno alla fiducia degli utenti incalcolabile. Minimizzazione dei dati da cinquanta a quindici punti: conformità normativa raggiunta, fiducia degli utenti più quindici percento. Impatto: rischio multa normativa, fiducia utenti meno trenta percento.",
+      "flavor": "\"Ogni dato non necessario è una responsabilità, non un vantaggio\"",
+      "classe": "persone"
+    },
+    {
+      "titolo": "Modalità Scura ed Esperienza Utente",
+      "icona": "👥",
+      "emoji": "🌙",
+      "tipo": "PERSONE",
+      "testo": "Nessuna modalità scura: il quaranta percento degli utenti usa l'applicazione di sera o notte. Affaticamento visivo, disturbo del sonno da luce blu, scaricamento batteria OLED più sessanta percento. Soddisfazione utenti meno venti percento. Implementazione: una settimana di sviluppo. Impatto: soddisfazione utenti più venti percento, mantenimento più cinque percento.",
+      "flavor": "\"La modalità scura non è estetica, è benessere degli utenti\"",
+      "classe": "persone"
+    },
+    {
+      "titolo": "Complessità da Eccesso di Ingegnerizzazione",
+      "icona": "👥",
+      "emoji": "🏗️",
+      "tipo": "PERSONE",
+      "testo": "Cinquanta microservizi per diecimila utenti: sovraccarico cognitivo del team. Inserimento nuovi sviluppatori tre mesi contro due settimane per applicazione monolitica. Tempo di risoluzione problemi cinque volte più lungo. Soddisfazione del team meno trentacinque percento. Rischio abbandono. Impatto: inserimento più sei settimane, soddisfazione meno trentacinque percento.",
+      "flavor": "\"La complessità uccide, la semplicità scala\"",
+      "classe": "persone"
+    },
+    {
+      "titolo": "Funzionalità a Basso Ritorno",
+      "icona": "💰",
+      "emoji": "📉",
+      "tipo": "PROFITTO",
+      "testo": "La funzionalità costa diecimila euro al mese di infrastruttura. Utilizzo: zero virgola tre percento degli utenti. Attribuzione ricavi: zero euro. Ritorno investimento: meno cento percento, costo puro. Azione: rimuovere o ripensare. Risparmio: centoventimila euro all'anno. Impatto: meno centoventimila euro all'anno di spreco.",
+      "flavor": "\"Non tutte le funzionalità meritano di esistere\"",
+      "classe": "profitto"
+    },
+    {
+      "titolo": "Caso Aziendale Accessibilità",
+      "icona": "💰",
+      "emoji": "♿",
+      "tipo": "PROFITTO",
+      "testo": "Investimento quindicimila euro per due settimane di sviluppo. Ricavi: più cinquemiladuecento utenti da accessibilità, più due percento tasso di conversione per tutti gli utenti. Totale nuovi ricavi: settecentoquarantaquattromila euro all'anno. Ritorno investimento primo anno: quarantanove virgola sei volte. Rientro investimento: una settimana. Impatto: più settecentoquarantaquattromila euro all'anno, ritorno investimento quarantanove virgola sei volte.",
+      "flavor": "\"L'accessibilità ha il miglior ritorno dell'investimento che vedrai mai\"",
+      "classe": "profitto"
+    },
+    {
+      "titolo": "Estensione Ciclo Vita Dispositivi",
+      "icona": "💰",
+      "emoji": "💻",
+      "tipo": "PROFITTO",
+      "testo": "Estendere il ciclo di vita dei portatili da due a cinque anni. Flotta di duecento portatili per milleduecento euro equivale a duecentoquarantamila euro di investimento iniziale ogni due anni. Risparmio da estensione: novantaseimila euro all'anno di investimento iniziale evitato. Carbonio incorporato: meno ventotto tonnellate all'anno. Costo della modifica della politica: zero euro. Impatto: più novantaseimila euro all'anno di risparmio, ritorno investimento infinito.",
+      "flavor": "\"Il portatile più economico è quello che non compri\"",
+      "classe": "profitto"
+    },
+    {
+      "titolo": "Risparmio da Minimizzazione Dati",
+      "icona": "💰",
+      "emoji": "📊",
+      "tipo": "PROFITTO",
+      "testo": "Da cinquanta a quindici dati raccolti: archiviazione meno settanta percento da due terabyte a seicento gigabyte, costo archiviazione da milleduecento a quattrocento euro al mese. Costo sicurezza meno sessantatré percento per superficie di attacco ridotta. Totale risparmio: trentaduemila euro all'anno. Rischio normativo: eliminato. Impatto: più trentaduemila euro all'anno di risparmio.",
+      "flavor": "\"Meno dati uguale meno costi uguale meno rischi uguale più profitto\"",
+      "classe": "profitto"
+    },
+    {
+      "titolo": "Costo Abbandono Evitato",
+      "icona": "💰",
+      "emoji": "👨‍💻",
+      "tipo": "PROFITTO",
+      "testo": "Abbandono sviluppatori trentasette virgola cinque percento, tre su otto, causato da esaurimento da reperibilità. Costo sostituzione cinquantamila euro per sviluppatore tra ricerca, inserimento e periodo di rodaggio. Costo totale: centocinquantamila euro all'anno. Risolvere la causa principale: mantenimento cento percento, risparmio centocinquantamila euro. Impatto: più centocinquantamila euro all'anno di costo evitato.",
+      "flavor": "\"Mantenere costa meno che reclutare\"",
+      "classe": "profitto"
+    },
+    {
+      "titolo": "Ottimizzazione Spreco Infrastruttura",
+      "icona": "💰",
+      "emoji": "☁️",
+      "tipo": "PROFITTO",
+      "testo": "Il trentacinque percento dei carichi di lavoro in infrastruttura è sovradimensionato secondo la media di settore. Verifica infrastruttura: identificare risorse inattive, ridimensionare correttamente le istanze, applicare sconti per prenotazione. Risparmio tipico: dal trenta al quaranta percento della spesa totale. Flotta da cinquecentomila euro all'anno: centocinquantamila euro di risparmio. Impatto: più centocinquantamila euro all'anno di risparmio con trenta percento di riduzione.",
+      "flavor": "\"L'ottimizzazione dei costi infrastrutturali è il frutto più facile da cogliere\"",
+      "classe": "profitto"
+    },
+    {
+      "titolo": "Dilemma del Prigioniero nell'IT",
+      "icona": "🎮",
+      "emoji": "🤝",
+      "tipo": "DILEMMA",
+      "testo": "Tu e un concorrente dovete decidere se investire in sostenibilità. Equilibrio di Nash: nessuno investe, risultato cinque cinque. Ottimo di Pareto: entrambi investono, risultato otto otto. Come rompere l'equilibrio negativo? Reputazione, regolamentazione, coordinamento, vantaggio del primo attore.",
+      "flavor": "\"La cooperazione batte la competizione nel lungo periodo\"",
+      "classe": "dilemma"
+    },
+    {
+      "titolo": "Tragedia dei Beni Comuni nell'Infrastruttura",
+      "icona": "🎮",
+      "emoji": "🌊",
+      "tipo": "DILEMMA",
+      "testo": "Dieci startup usano lo stesso centro dati. L'intensità carbonica della rete elettrica varia per ora del giorno: centocinquanta grammi nelle ore a basso carbonio contro quattrocentocinquanta grammi nelle ore ad alto carbonio. Spostare temporalmente i lavori batch richiede sforzo, meno uno. Beneficio se tutti cooperano: più cinque. Strategia dominante individuale: non cooperare, più cinque da parassita. Equilibrio di Nash: nessuno sposta i lavori, tutti pagano la rete ad alto carbonio.",
+      "flavor": "\"L'ottimo individuale non è uguale all'ottimo collettivo\"",
+      "classe": "dilemma"
+    },
+    {
+      "titolo": "Identificazione Vittorie Rapide",
+      "icona": "🎯",
+      "emoji": "✅",
+      "tipo": "META",
+      "testo": "Dai dieci scenari analizzati, identifica le tre vittorie rapide principali. Criteri: primo, basso sforzo di implementazione. Secondo, alto impatto su Pianeta Persone Profitto. Terzo, ritorno investimento maggiore di dieci volte. Quarto, tempi inferiori a quattro settimane. Quinto, responsabile chiaro.",
+      "flavor": "\"Le vittorie rapide costruiscono lo slancio per i progetti grandi\"",
+      "classe": "meta"
+    },
+    {
+      "titolo": "Ritorno Investimento Tripla Linea",
+      "icona": "🎯",
+      "emoji": "📊",
+      "tipo": "META",
+      "testo": "Per ogni vittoria rapida, calcola il ritorno dell'investimento completo. Pianeta: chilogrammi di CO2 equivalente risparmiati moltiplicato per cinquanta euro a tonnellata di prezzo del carbonio. Persone: variazione benessere moltiplicato per risparmio da mantenimento. Profitto: risparmio in euro all'anno. Ritorno investimento totale uguale somma benefici diviso costo investimento.",
+      "flavor": "\"Misura tutto, migliora tutto\"",
+      "classe": "meta"
+    }
+  ],
+  "istruzioni": {
+    "preparazione": "Stampa le carte in formato A6 su cartoncino da trecento grammi. Oppure usa la versione digitale su lavagna Miro o Mural.",
+    "turno_uno": "SCENARIO, dieci minuti: Pesca due carte scenario per partecipante. Discuti l'impatto su Pianeta Persone Profitto.",
+    "turno_due": "ANALISI IMPATTO, quindici minuti: Per ogni scenario, pesca le carte impatto da Pianeta Persone Profitto. Calcola l'impatto totale.",
+    "turno_tre": "DILEMMA E SOLUZIONI, cinque minuti: Pesca una carta dilemma. Discuti come rompere l'equilibrio negativo.",
+    "risultato": "Lavagna Tripla Linea compilata, più le tre vittorie rapide principali con ritorno investimento, più responsabili assegnati, più prossima azione chiara"
+  }
+}

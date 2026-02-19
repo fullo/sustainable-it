@@ -1,0 +1,178 @@
+{
+  "titolo": "Esercizio #4: OKR Lightning",
+  "sottotitolo": "Scrivi OKR sostenibili con causalità forte usando Theory of Change",
+  "icona_esercizio": "🎯",
+  "durata": "25 minuti",
+  "partecipanti": "3-6 persone (Dirigente Tecnologia, Responsabile Prodotto, Sostenibilità, Business)",
+  "carte": [
+    {
+      "titolo": "Sistema Cloud Carbon-Neutral",
+      "icona": "☁️",
+      "emoji": "🌱",
+      "tipo": "OBJECTIVE - PLANET",
+      "testo": "Sistema cloud carbon-neutral entro fine trimestre quattro. Infrastruttura attuale produce centocinquanta tonnellate di CO2 equivalente all'anno. Obiettivo: riduzione a zero emissioni nette attraverso efficienza energetica, fonti rinnovabili e ottimizzazione workload.",
+      "flavor": "\"Carbon-neutral non è offset, è efficienza vera\"",
+      "classe": "objective-planet"
+    },
+    {
+      "titolo": "Riduzione E-Waste Aziendale",
+      "icona": "♻️",
+      "emoji": "📱",
+      "tipo": "OBJECTIVE - PLANET",
+      "testo": "Ridurre rifiuti elettronici aziendali del cinquanta percento nel prossimo anno. Flotta attuale: duecento dispositivi con ciclo di vita medio tre anni. Cinquanta dispositivi all'anno finiscono in discarica. Obiettivo: estensione ciclo vita e riciclo totale. ESEMPIO GREENFINANCE: Q4 2023 aveva device lifecycle due virgola cinque anni, target cinque anni entro Q2 2025. Risultato: meno ottantasette tonnellate CO2e embodied carbon, saving duecentomila euro biennale (Cap. 4).",
+      "flavor": "\"Il device più sostenibile è quello che non butti\"",
+      "classe": "objective-planet"
+    },
+    {
+      "titolo": "Compliance Accessibilità WCAG",
+      "icona": "♿",
+      "emoji": "👁️",
+      "tipo": "OBJECTIVE - PEOPLE",
+      "testo": "Raggiungere compliance WCAG due punto uno livello AA su tutte le applicazioni entro trimestre due. Attualmente solo il quaranta percento delle funzionalità è accessibile. Il quindici percento degli utenti potenziali è escluso. Obiettivo: inclusione digitale completa.",
+      "flavor": "\"Accessibilità è diritto, non feature\"",
+      "classe": "objective-people"
+    },
+    {
+      "titolo": "Riduzione Burnout Team Engineering",
+      "icona": "💚",
+      "emoji": "😌",
+      "tipo": "OBJECTIVE - PEOPLE",
+      "testo": "Ridurre burnout team engineering del quaranta percento entro trimestre quattro. Burnout index attuale: sette su dieci. Turnover: venticinque percento anno. On-call alert: otto per notte media. Obiettivo: team sostenibile e sano.",
+      "flavor": "\"Developer wellbeing è prerequisito per sostenibilità\"",
+      "classe": "objective-people"
+    },
+    {
+      "titolo": "Riduzione TCO Infrastruttura",
+      "icona": "💰",
+      "emoji": "📉",
+      "tipo": "OBJECTIVE - PROFIT",
+      "testo": "Ridurre Total Cost of Ownership infrastruttura IT del venticinque percento entro fine anno. Budget attuale: cinquecentomila euro anno. Obiettivo: saving centoventicinquemila euro attraverso efficienza operativa e ottimizzazione risorse.",
+      "flavor": "\"Sostenibilità economica è requisito per sostenibilità ambientale\"",
+      "classe": "objective-profit"
+    },
+    {
+      "titolo": "Revenue da Sustainability Features",
+      "icona": "💰",
+      "emoji": "📈",
+      "tipo": "OBJECTIVE - PROFIT",
+      "testo": "Generare cinquecentomila euro revenue addizionale da sustainability features entro trimestre quattro. Zero revenue attuale da green offerings. Mercato enterprise richiede carbon footprint reporting. Obiettivo: monetizzare sostenibilità.",
+      "flavor": "\"Green può essere premium, non solo costo\"",
+      "classe": "objective-profit"
+    },
+    {
+      "titolo": "Energia Rinnovabile Totale",
+      "icona": "🔋",
+      "emoji": "☀️",
+      "tipo": "KEY RESULT",
+      "testo": "Cento percento energia da fonti rinnovabili entro fine trimestre. Attualmente sessanta percento mix energetico è fossile. Actions necessarie: contratti PPA Power Purchase Agreement con vendor green certified, migration datacenter su region cento percento renewable, monitoring real-time energy source.",
+      "flavor": "\"Fonte energia è prima leva per carbon-neutral\"",
+      "classe": "key-result"
+    },
+    {
+      "titolo": "PUE Datacenter Ottimizzato",
+      "icona": "🏢",
+      "emoji": "⚡",
+      "tipo": "KEY RESULT",
+      "testo": "PUE Power Usage Effectiveness inferiore uno virgola due entro fine trimestre. PUE attuale uno virgola cinque: cinquanta percento energia sprecata in cooling e overhead invece di compute. Actions: cooling optimization, hardware refresh efficient, hot/cold aisle containment.",
+      "flavor": "\"PUE uno virgola zero è impossibile, uno virgola due è eccellente\"",
+      "classe": "key-result"
+    },
+    {
+      "titolo": "Workload su Region Low-Carbon",
+      "icona": "🌍",
+      "emoji": "🗺️",
+      "tipo": "KEY RESULT",
+      "testo": "Ottanta percento workload migrato su region low-carbon entro fine trimestre. Carbon intensity target: inferiore centocinquanta grammi CO2 per kWh. Attualmente cinquanta percento workload su region coal-intensive quattrocentocinquanta grammi. Actions: workload mapping, migration plan, execution.",
+      "flavor": "\"Location matters: region coal emette nove volte region hydro\"",
+      "classe": "key-result"
+    },
+    {
+      "titolo": "Device Lifecycle Esteso",
+      "icona": "💻",
+      "emoji": "🔄",
+      "tipo": "KEY RESULT",
+      "testo": "Device lifecycle medio cinque anni entro fine anno. Attualmente tre anni con policy refresh automatico. Duecento dispositivi flotta. Actions: policy update, hardware assessment program, employee education, upgrade RAM/SSD invece di replace completo.",
+      "flavor": "\"Ogni anno esteso evita trecentocinquanta kg CO2 per device\"",
+      "classe": "key-result"
+    },
+    {
+      "titolo": "Riciclo Dispositivi Totale",
+      "icona": "♻️",
+      "emoji": "🔄",
+      "tipo": "KEY RESULT",
+      "testo": "Cento percento device riciclati o ricondizionati a fine vita entro fine anno. Attualmente quaranta percento recycling rate, trenta percento finisce in discarica, trenta percento storage indefinito. Actions: partnership certified recycler, trade-in program, donation program scuole.",
+      "flavor": "\"Zero device in landfill è possibile e dovuto\"",
+      "classe": "key-result"
+    },
+    {
+      "titolo": "Componenti UI Accessibili",
+      "icona": "🎨",
+      "emoji": "♿",
+      "tipo": "KEY RESULT",
+      "testo": "Cento percento componenti UI accessibili WCAG AA entro trimestre due. Attualmente sessanta percento compliance. Actions: accessibility audit automated, component library refactor, screen reader testing, keyboard navigation implementation, color contrast fixes.",
+      "flavor": "\"Design system accessibile è investimento che scala\"",
+      "classe": "key-result"
+    },
+    {
+      "titolo": "On-Call Alert Ridotti",
+      "icona": "🚨",
+      "emoji": "😴",
+      "tipo": "KEY RESULT",
+      "testo": "On-call alert medi inferiore due per notte entro trimestre quattro. Attualmente otto alert notte media. Causa principale: feature buggy e architettura fragile. Actions: stability sprint, monitoring threshold tuning, proactive alerting, incident postmortem action items.",
+      "flavor": "\"Developer sleep è metrica sostenibilità critica\"",
+      "classe": "key-result"
+    },
+    {
+      "titolo": "Cloud Spend Optimization",
+      "icona": "💰",
+      "emoji": "☁️",
+      "tipo": "KEY RESULT",
+      "testo": "Cloud spend optimization: saving centocinquantamila euro anno entro fine trimestre quattro. Budget attuale: cinquecentomila euro anno. Actions: rightsizing instances, reserved instances discount, autoscaling implementation, unused resources cleanup, storage lifecycle policies.",
+      "flavor": "\"Ogni euro risparmiato è anche CO2 risparmiata\"",
+      "classe": "key-result"
+    },
+    {
+      "titolo": "Employee Satisfaction Score",
+      "icona": "😊",
+      "emoji": "📊",
+      "tipo": "KEY RESULT",
+      "testo": "Employee satisfaction score superiore otto su dieci entro fine anno. Attualmente sei su dieci. Survey quarterly con focus wellbeing, work-life balance, tools quality, growth opportunities. Actions: feedback loop implementation, wellbeing programs, remote flexibility, learning budget.",
+      "flavor": "\"Happy developers build sustainable software\"",
+      "classe": "key-result"
+    },
+    {
+      "titolo": "OKR Sbagliato: Output Come Objective",
+      "icona": "❌",
+      "emoji": "📝",
+      "tipo": "DILEMMA",
+      "testo": "OKR SBAGLIATO: O: Completare carbon assessment infrastruttura trimestre due. KR1: Installare Cloud Carbon Footprint tool. KR2: Formare team su green metrics. KR3: Pubblicare report sostenibilità. PROBLEMA: Objective è task non outcome. KR sono attività non cause. Zero causalità. Zero impatto ambientale. FIX: Objective deve essere outcome misurabile. KR devono causare O.",
+      "flavor": "\"Assessment è starting point, non destination\"",
+      "classe": "dilemma"
+    },
+    {
+      "titolo": "OKR Sbagliato: KR Non Causali",
+      "icona": "❌",
+      "emoji": "🔗",
+      "tipo": "DILEMMA",
+      "testo": "OKR SBAGLIATO: O: Ridurre carbon footprint del trenta percento trimestre tre. KR1: Organizzare cinque workshop green coding. KR2: Aumentare code review sustainability del cinquanta percento. KR3: Pubblicare green coding guidelines. PROBLEMA: KR non causano O. Workshop è awareness non action. Guidelines è documentation non execution. FIX: KR devono essere leve che riducono direttamente emissioni.",
+      "flavor": "\"Awareness non riduce CO2, azione sì\"",
+      "classe": "dilemma"
+    },
+    {
+      "titolo": "OKR Sbagliato: Objective Vago",
+      "icona": "❌",
+      "emoji": "🌫️",
+      "tipo": "DILEMMA",
+      "testo": "OKR SBAGLIATO: O: Migliorare sostenibilità IT trimestre quattro. KR1: Aumentare green metrics del venti percento. KR2: Ridurre environmental impact. KR3: Ottimizzare resource efficiency. PROBLEMA: Objective troppo vago. Cosa significa migliorare? KR non sono misurabili. Cosa sono green metrics? FIX: Objective specifico outcome-based. KR con numeri precisi baseline e target.",
+      "flavor": "\"Vague goals produce vague results: zero\"",
+      "classe": "dilemma"
+    }
+  ],
+  "istruzioni": {
+    "preparazione": "Stampa le carte in formato A6 su cartoncino da trecento grammi. Oppure usa la versione digitale su lavagna Miro o Mural.",
+    "turno_uno": "SCEGLI OBJECTIVE, cinque minuti: Pesca le sei Objective Cards. Team vota quale Objective è più rilevante per il vostro contesto.",
+    "turno_due": "SELEZIONA KEY RESULTS, quindici minuti: Pesca le nove Key Results Cards. Team identifica tre KR causali usando So-What Test: se questo KR fallisce, l'Objective può comunque essere raggiunto? Se risposta no, KR è causale.",
+    "turno_tre": "CORREGGI DILEMMA, cinque minuti: Pesca una Dilemma Card. Team identifica problema e propone fix usando Theory of Change.",
+    "risultato": "OKR Canvas compilato con Objective specifico, tre Key Results causali validati, owner assegnati, attività mappate per ogni KR"
+  }
+}
