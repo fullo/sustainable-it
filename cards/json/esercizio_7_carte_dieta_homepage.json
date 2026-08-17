@@ -1,0 +1,217 @@
+{
+  "title": "Esercizio #7: La Dieta della Homepage",
+  "subtitle": "Applica i 4 filtri del Design Frugale e la gerarchia evita-riduci-ottimizza-compensa per portare una homepage da 13,5 MB sotto il budget di 1,5 MB",
+  "deckIcon": "🥗",
+  "cardBackIcon": "🃏",
+  "copyright": "© 2026 Francesco Fullone — CC BY-NC-SA 4.0",
+  "durata": "25 minuti (Fase 1: 5 minuti, Fase 2: 10 minuti, Fase 3: 10 minuti)",
+  "partecipanti": "3-6 persone (Design, Sviluppo Frontend, Marketing, Prodotto)",
+  "cards": [
+    {
+      "title": "Video hero in autoplay",
+      "headerIcon": "🎬",
+      "heroImage": "📺",
+      "type": "ELEMENTO DI PAGINA",
+      "description": "Peso: 8 MB. Loop ad alta risoluzione che parte da solo e viene scaricato per intero anche se l'utente non lo guarda. Il 67% degli utenti lo salta subito o lo trova fastidioso.",
+      "flavorText": "\"Parte da solo, anche se nessuno lo guarda\"",
+      "styleClass": "elemento"
+    },
+    {
+      "title": "Carousel di 15 immagini",
+      "headerIcon": "🎠",
+      "heroImage": "🖼️",
+      "type": "ELEMENTO DI PAGINA",
+      "description": "Peso: 3 MB. 15 immagini JPEG ad alta risoluzione pre-caricate tutte insieme. Il 92% degli utenti non clicca mai oltre la prima slide. Vincitore di premi, perdente sui dati d'uso.",
+      "flavorText": "\"Premiato dai giudici, ignorato dagli utenti\"",
+      "styleClass": "elemento"
+    },
+    {
+      "title": "Font custom in 4 varianti",
+      "headerIcon": "🔤",
+      "heroImage": "✒️",
+      "type": "ELEMENTO DI PAGINA",
+      "description": "Peso: 800 KB. 4 varianti (Bold, Italic, Light, Regular) scaricate a ogni visita, ma solo 2 sono usate davvero. Il font di sistema costerebbe 0 KB con leggibilità perfetta.",
+      "flavorText": "\"Il font più leggero è quello che non scarichi\"",
+      "styleClass": "elemento"
+    },
+    {
+      "title": "Bundle JavaScript",
+      "headerIcon": "📦",
+      "heroImage": "⚙️",
+      "type": "ELEMENTO DI PAGINA",
+      "description": "Peso: 400 KB. Librerie di animazione e tracking inutilizzate incluse nel pacchetto principale. Ogni visitatore le scarica e le processa, che servano o no.",
+      "flavorText": "\"Il codice che non usi pesa quanto quello che usi\"",
+      "styleClass": "elemento"
+    },
+    {
+      "title": "Script di tracking multipli",
+      "headerIcon": "📡",
+      "heroImage": "📊",
+      "type": "ELEMENTO DI PAGINA",
+      "description": "Peso: 180 KB. 3 provider di analytics misurano le stesse visite: 3 script separati che rallentano il rendering e inviano dati a server diversi. Il team ne consulta solo 1.",
+      "flavorText": "\"3 script per misurare la stessa visita\"",
+      "styleClass": "elemento"
+    },
+    {
+      "title": "Chat widget di terze parti",
+      "headerIcon": "💬",
+      "heroImage": "🗨️",
+      "type": "ELEMENTO DI PAGINA",
+      "description": "Peso: 200 KB. Si carica su ogni pagina per tutti i visitatori, ma pochissimi aprono una conversazione. Potrebbe caricarsi solo al clic sull'icona, on-demand.",
+      "flavorText": "\"Sempre carico, quasi mai aperto\"",
+      "styleClass": "elemento"
+    },
+    {
+      "title": "Cookie banner con libreria dedicata",
+      "headerIcon": "🍪",
+      "heroImage": "📜",
+      "type": "ELEMENTO DI PAGINA",
+      "description": "Peso: 90 KB. Una libreria JavaScript intera per un banner di consenso realizzabile con HTML e CSS nativi. Blocca il rendering della pagina finché non è caricata.",
+      "flavorText": "\"90 KB per chiederti il permesso\"",
+      "styleClass": "elemento"
+    },
+    {
+      "title": "Icone come immagini PNG",
+      "headerIcon": "🧩",
+      "heroImage": "🖌️",
+      "type": "ELEMENTO DI PAGINA",
+      "description": "Peso: 110 KB. 24 icone servite come PNG separati: 24 richieste al server. In formato SVG o come sprite unico peserebbero pochi KB in 1 sola richiesta.",
+      "flavorText": "\"24 richieste al server per 24 icone\"",
+      "styleClass": "elemento"
+    },
+    {
+      "title": "Mappa embed della sede",
+      "headerIcon": "🗺️",
+      "heroImage": "📍",
+      "type": "ELEMENTO DI PAGINA",
+      "description": "Peso: 240 KB. Mappa interattiva incorporata nel footer per mostrare l'indirizzo della sede. Un'immagine statica con collegamento alla mappa esterna basterebbe.",
+      "flavorText": "\"Una mappa interattiva per un indirizzo statico\"",
+      "styleClass": "elemento"
+    },
+    {
+      "title": "Immagine di sfondo del footer",
+      "headerIcon": "🌄",
+      "heroImage": "🏞️",
+      "type": "ELEMENTO DI PAGINA",
+      "description": "Peso: 160 KB. Fotografia decorativa non compressa, sotto la piega: la maggior parte degli utenti non scorre fin lì, ma la scarica comunque a ogni visita.",
+      "flavorText": "\"Bella, decorativa, vista da quasi nessuno\"",
+      "styleClass": "elemento"
+    },
+    {
+      "title": "Widget social feed",
+      "headerIcon": "📱",
+      "heroImage": "📣",
+      "type": "ELEMENTO DI PAGINA",
+      "description": "Peso: 150 KB. Mostra gli ultimi 3 post aziendali caricando script esterni a ogni visita, per contenuti che cambiano 2 volte a settimana.",
+      "flavorText": "\"Tempo reale per contenuti che cambiano 2 volte a settimana\"",
+      "styleClass": "elemento"
+    },
+    {
+      "title": "GIF animata promozionale",
+      "headerIcon": "🎞️",
+      "heroImage": "📅",
+      "type": "ELEMENTO DI PAGINA",
+      "description": "Peso: 160 KB. Banner animato che promuove un webinar già concluso. Nessuno l'ha rimosso: pura decorazione che consuma banda e attenzione a ogni caricamento.",
+      "flavorText": "\"Promuove un evento già finito\"",
+      "styleClass": "elemento"
+    },
+    {
+      "title": "Filtro 1: Necessità",
+      "headerIcon": "🔍",
+      "heroImage": "❓",
+      "type": "FILTRO",
+      "description": "Domanda 1 della checklist: questo elemento risolve un problema reale dell'utente o è solo decorazione? Se non supera questo filtro, gli altri non servono: l'elemento si elimina.",
+      "flavorText": "\"Ogni pixel deve guadagnarsi il diritto di stare sullo schermo\"",
+      "styleClass": "filtro"
+    },
+    {
+      "title": "Filtro 2: Peso",
+      "headerIcon": "🔍",
+      "heroImage": "⚖️",
+      "type": "FILTRO",
+      "description": "Domanda 2: possiamo ottenere lo stesso risultato emotivo o informativo con un formato più leggero? SVG invece di PNG, CSS invece di JavaScript, font di sistema invece di font custom.",
+      "flavorText": "\"Stesso risultato, formato più leggero\"",
+      "styleClass": "filtro"
+    },
+    {
+      "title": "Filtro 3: Frizione",
+      "headerIcon": "🔍",
+      "heroImage": "⏯️",
+      "type": "FILTRO",
+      "description": "Domanda 3: stiamo chiedendo all'utente di scaricare cose che non ha chiesto? Autoplay e pre-caricamenti sono frizione: i pattern on-demand restituiscono la scelta all'utente.",
+      "flavorText": "\"Non far scaricare ciò che non è stato chiesto\"",
+      "styleClass": "filtro"
+    },
+    {
+      "title": "Filtro 4: Longevità",
+      "headerIcon": "🔍",
+      "heroImage": "⏳",
+      "type": "FILTRO",
+      "description": "Domanda 4: questo design funzionerà su un telefono di 4 anni fa? Connessioni instabili, piani dati limitati, dispositivi datati: progetta per lo scenario peggiore, non per il migliore.",
+      "flavorText": "\"Sustainable UX significa progettare per lo scenario peggiore\"",
+      "styleClass": "filtro"
+    },
+    {
+      "title": "Gerarchia 1: Evita",
+      "headerIcon": "🪜",
+      "heroImage": "🚫",
+      "type": "GERARCHIA",
+      "description": "Livello 1: questo elemento serve davvero? Test della sufficienza: se sparisse domani, qualcuno se ne accorgerebbe entro 7 giorni? Se no, non va ottimizzato: va eliminato. Peso: 0 KB.",
+      "flavorText": "\"Il miglior modo per ridurre l'impatto è non avere l'impatto\"",
+      "styleClass": "gerarchia"
+    },
+    {
+      "title": "Gerarchia 2: Riduci",
+      "headerIcon": "🪜",
+      "heroImage": "➖",
+      "type": "GERARCHIA",
+      "description": "Livello 2: se serve, può funzionare con meno risorse? Meno immagini, meno varianti di font, meno provider di tracking, meno frequenza di aggiornamento. Dimezzare è già vincere.",
+      "flavorText": "\"Fare di più con meno comincia dal fare meno\"",
+      "styleClass": "gerarchia"
+    },
+    {
+      "title": "Gerarchia 3: Ottimizza",
+      "headerIcon": "🪜",
+      "heroImage": "⚡",
+      "type": "GERARCHIA",
+      "description": "Livello 3: compressione, formati moderni, lazy loading, click to play, right-sizing. L'elemento resta in pagina, ma il peso al primo caricamento crolla.",
+      "flavorText": "\"L'elemento resta, il peso crolla\"",
+      "styleClass": "gerarchia"
+    },
+    {
+      "title": "Gerarchia 4: Compensa",
+      "headerIcon": "🪜",
+      "heroImage": "🌳",
+      "type": "GERARCHIA",
+      "description": "Livello 4, ultima risorsa: solo dopo aver esaurito Evita, Riduci e Ottimizza. In questo esercizio non riduce il peso: compensare un elemento superfluo non lo rende sostenibile.",
+      "flavorText": "\"L'ultima risorsa non è mai la prima scelta\"",
+      "styleClass": "gerarchia"
+    },
+    {
+      "title": "Budget di Performance",
+      "headerIcon": "🧮",
+      "heroImage": "🎯",
+      "type": "REFERENCE CARD",
+      "description": "Budget: 1,5 MB al primo caricamento. Peso finale = somma degli elementi mantenuti. Un elemento reso on-demand conta solo per l'anteprima: stima forfettaria 30 KB. Sotto budget = obiettivo raggiunto.",
+      "flavorText": "\"Il budget toglie l'alibi: o sei sotto, o non hai finito\"",
+      "styleClass": "reference"
+    },
+    {
+      "title": "Il risultato reale GreenFinance",
+      "headerIcon": "🏆",
+      "heroImage": "📉",
+      "type": "REFERENCE CARD",
+      "description": "Caso reale: da 12 MB a 840 KB (-93%), da 15 elementi pesanti a 5 essenziali. Carousel rimosso, video click to play, font di sistema, lazy loading. Conversion +62%, carbonio homepage -83%.",
+      "flavorText": "\"Abbiamo tolto il superfluo per lasciare spazio al valore\"",
+      "styleClass": "reference"
+    }
+  ],
+  "istruzioni": {
+    "preparazione": "Stampa le 22 carte (12 Elemento di Pagina + 4 Filtro + 4 Gerarchia + 2 Reference) in formato A6 su cartoncino da 300 grammi. Oppure usa la versione digitale su lavagna Miro. Serve un foglio di calcolo o una calcolatrice per sommare i pesi. Tieni sempre visibili le 4 carte Filtro, le 4 carte Gerarchia e la Reference Card Budget di Performance; la Reference Card Risultato GreenFinance resta coperta fino al debrief.",
+    "nota_normativa": "Aggiornamento 2026: dal 28 giugno 2025 l'European Accessibility Act rende l'accessibilità digitale un obbligo di legge per molti servizi, inclusi banche ed e-commerce. Il legame accessibilità-efficienza del Capitolo 6 (HTML semantico, contrasto, WCAG 2.1 AA) non è più solo buona pratica: è conformità. Le Web Sustainability Guidelines (WSG 1.0) del W3C restano lo standard volontario di riferimento, con 93 raccomandazioni organizzate per ruolo.",
+    "fase_uno": "PESATURA, 5 minuti: il team dispone le 12 carte Elemento di Pagina sul tavolo e somma i pesi dichiarati: circa 13,5 MB al primo caricamento. Confronto con la Reference Card Budget di Performance: 1,5 MB. Il gap è di circa il 90%: la homepage non va ritoccata, va messa a dieta. Output: peso totale calcolato e gap rispetto al budget.",
+    "fase_due": "LA DIETA, 10 minuti: per ogni elemento il team applica in sequenza i 4 filtri del Design Frugale (Necessità, Peso, Frizione, Longevità) e assegna un livello della gerarchia: Evita (elimina, 0 KB), Riduci (stima il nuovo peso), Ottimizza (comprimi o rendi on-demand: 30 KB forfettari di anteprima). Compensa non riduce il peso e non è ammesso come prima scelta. Output: 12 decisioni con nuovo peso stimato per ogni elemento.",
+    "fase_tre": "VERIFICA E DEBRIEF, 10 minuti: il team somma i nuovi pesi e verifica il budget: sotto 1,5 MB l'obiettivo è raggiunto, altrimenti si torna sugli elementi più pesanti. Poi si scopre la Reference Card Risultato GreenFinance: il caso reale è passato da 12 MB a 840 KB (-93%) con carousel rimosso, video click to play, font di sistema e lazy loading. Confronto: dove il team è stato più aggressivo? Dove meno? Output: homepage sotto budget e confronto documentato con il caso reale.",
+    "risultato": "Homepage a dieta: 12 elementi con decisione esplicita (Evita, Riduci o Ottimizza), peso finale sotto il budget di 1,5 MB e confronto con la soluzione reale GreenFinance (840 KB, -93%) come debrief."
+  }
+}

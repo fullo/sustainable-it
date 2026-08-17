@@ -1,0 +1,208 @@
+{
+  "title": "Esercizio #8: Il Detector dei 7 Peccati",
+  "subtitle": "Riconosci il greenwashing nella comunicazione IT: classifica i claim nei 7 peccati TerraChoice e riscrivili con il template anti-greenwashing",
+  "deckIcon": "🔍",
+  "cardBackIcon": "🃏",
+  "copyright": "© 2026 Francesco Fullone — CC BY-NC-SA 4.0",
+  "durata": "25 minuti (Fase 1: 8 minuti, Fase 2: 7 minuti, Fase 3: 10 minuti)",
+  "partecipanti": "3-6 persone (Marketing/Comunicazione, Engineering, Sostenibilità, Legal)",
+  "cards": [
+    {
+      "title": "CloudPay — Carbon neutral dal 2023",
+      "headerIcon": "📣",
+      "heroImage": "☁️",
+      "type": "CLAIM",
+      "description": "Fintech B2B annuncia la neutralità carbonica raggiunta in 1 anno. Offset da riforestazione comprati via consulente esterno. Nessuna metodologia pubblicata, nessun dato. Bolletta cloud +30%.",
+      "flavorText": "\"Siamo carbon neutral dal 2023\"",
+      "styleClass": "claim"
+    },
+    {
+      "title": "DataFarm — Data center 100% rinnovabile",
+      "headerIcon": "📣",
+      "heroImage": "🌞",
+      "type": "CLAIM",
+      "description": "Il provider dichiara energia 100% rinnovabile tramite PPA. Vero. Ma tace l'embodied carbon dell'hardware, sostituito ogni 5 anni, e non gestisce la dismissione. Il claim copre solo l'uso.",
+      "flavorText": "\"Alimentati dal sole, sempre\"",
+      "styleClass": "claim"
+    },
+    {
+      "title": "EcoHost — Piattaforma eco-friendly",
+      "headerIcon": "📣",
+      "heroImage": "🌿",
+      "type": "CLAIM",
+      "description": "Sito e brochure ripetono \"infrastruttura sostenibile\" ed \"eco-friendly\". Nessuno standard citato: non è chiaro se parlino di efficienza energetica, rinnovabili o water footprint.",
+      "flavorText": "\"Scegli l'hosting che ama il pianeta\"",
+      "styleClass": "claim"
+    },
+    {
+      "title": "ChipNova — Badge Green Certified",
+      "headerIcon": "📣",
+      "heroImage": "🔖",
+      "type": "CLAIM",
+      "description": "Il produttore di chipset stampa sui datasheet un badge \"Green Certified\" dal design istituzionale. La certificazione è creata dal marketing interno: nessuno standard ISO, nessun ente terzo.",
+      "flavorText": "\"Qualità verde, garantita da noi\"",
+      "styleClass": "claim"
+    },
+    {
+      "title": "SoftSuite — Uffici plastic-free",
+      "headerIcon": "📣",
+      "heroImage": "♻️",
+      "type": "CLAIM",
+      "description": "L'azienda SaaS comunica uffici senza plastica, carta riciclata e borracce per tutti. Le emissioni dell'infrastruttura cloud, che valgono quasi tutto l'impatto reale, non sono mai citate.",
+      "flavorText": "\"La sostenibilità inizia dalla scrivania\"",
+      "styleClass": "claim"
+    },
+    {
+      "title": "ChainVerde — Blockchain a basso consumo",
+      "headerIcon": "📣",
+      "heroImage": "⛓️",
+      "type": "CLAIM",
+      "description": "La blockchain dichiara l'85% di consumi in meno rispetto a Bitcoin grazie al Proof of Stake. Vero. Ma l'impatto assoluto resta alto e la provenienza dell'energia non è dichiarata.",
+      "flavorText": "\"La crypto che rispetta l'ambiente\"",
+      "styleClass": "claim"
+    },
+    {
+      "title": "SkyServer — Verde e sempre acceso",
+      "headerIcon": "📣",
+      "heroImage": "🖥️",
+      "type": "CLAIM",
+      "description": "Il provider dichiara uptime 99,99% con energia interamente rinnovabile in una regione dove il mix energetico è al 70% fossile. Nessun PPA, nessun certificato: i numeri non tornano.",
+      "flavorText": "\"100% rinnovabile, 99,99% di uptime\"",
+      "styleClass": "claim"
+    },
+    {
+      "title": "NeuralSoft — AI a impatto zero",
+      "headerIcon": "📣",
+      "heroImage": "🤖",
+      "type": "CLAIM",
+      "description": "La startup promuove \"AI a impatto zero\": l'inferenza gira su server efficienti. Del training dei modelli, dell'hardware dedicato e del suo fine vita non c'è traccia nella comunicazione.",
+      "flavorText": "\"Intelligenza artificiale, impatto zero\"",
+      "styleClass": "claim"
+    },
+    {
+      "title": "FastCloud — Emissioni ridotte del 40%",
+      "headerIcon": "📣",
+      "heroImage": "📄",
+      "type": "CLAIM",
+      "description": "Un white paper dichiara la riduzione delle emissioni del 40%. Mancano anno base, confini del sistema e metodologia di calcolo. Un cliente che volesse verificare non potrebbe farlo.",
+      "flavorText": "\"Il 40% in meno, parola nostra\"",
+      "styleClass": "claim"
+    },
+    {
+      "title": "AppLite — La dark mode che salva il pianeta",
+      "headerIcon": "📣",
+      "heroImage": "🌙",
+      "type": "CLAIM",
+      "description": "L'app promuove il tema scuro come \"scelta per il pianeta\". Il risparmio sui display è reale ma marginale: il backend, responsabile della gran parte dell'impatto, non viene toccato né citato.",
+      "flavorText": "\"Schermo nero, futuro verde\"",
+      "styleClass": "claim"
+    },
+    {
+      "title": "GreenFinance — Footprint -28% su baseline 2022",
+      "headerIcon": "📣",
+      "heroImage": "📊",
+      "type": "CLAIM",
+      "description": "La piattaforma dichiara -28% di carbon footprint rispetto alla baseline 2022. Dashboard pubblica con dati, metodologia GHG Protocol, limiti dichiarati (embodied carbon escluso) e prossimi passi.",
+      "flavorText": "\"Ecco i dati, ecco dove siamo deboli\"",
+      "styleClass": "claim"
+    },
+    {
+      "title": "TerraSoft — A metà strada, in ritardo",
+      "headerIcon": "📣",
+      "heroImage": "🛤️",
+      "type": "CLAIM",
+      "description": "Obiettivo: -30% di emissioni entro il 2026. La società comunica di essere a -15%, con 1 KR in ritardo, e pubblica il piano di recupero. Numeri, fonte e data su ogni claim.",
+      "flavorText": "\"Siamo a -15%, ecco i gap e il piano\"",
+      "styleClass": "claim"
+    },
+    {
+      "title": "Peccato 1: Compromesso nascosto (Hidden Trade-Off)",
+      "headerIcon": "⚖️",
+      "heroImage": "🎭",
+      "type": "PECCATO",
+      "description": "Enfatizzare 1 aspetto verde omettendo il resto dell'impatto. Esempio IT: SaaS \"energia 100% rinnovabile\" via PPA che non conteggia produzione e dismissione dell'hardware dopo 5 anni.",
+      "flavorText": "\"Vero quello che dici, grave quello che taci\"",
+      "styleClass": "peccato"
+    },
+    {
+      "title": "Peccato 2: Nessuna prova (No Proof)",
+      "headerIcon": "⚖️",
+      "heroImage": "🔍",
+      "type": "PECCATO",
+      "description": "Claim senza dati, metodologia o certificazione verificabile. Esempio IT: fornitore cloud dichiara \"riduzione CO2 del 35%\" in un white paper senza anno base, metodo di calcolo né confini.",
+      "flavorText": "\"Se non posso verificarlo, non esiste\"",
+      "styleClass": "peccato"
+    },
+    {
+      "title": "Peccato 3: Vaghezza (Vagueness)",
+      "headerIcon": "⚖️",
+      "heroImage": "🌫️",
+      "type": "PECCATO",
+      "description": "Termini ampi e indefiniti: green, eco-friendly, sostenibile. Esempio IT: hosting che dichiara \"infrastruttura sostenibile\" senza dire se parla di energia, rinnovabili o water footprint.",
+      "flavorText": "\"Sostenibile secondo quale standard?\"",
+      "styleClass": "peccato"
+    },
+    {
+      "title": "Peccato 4: False etichette (Worshipping False Labels)",
+      "headerIcon": "⚖️",
+      "heroImage": "🏷️",
+      "type": "PECCATO",
+      "description": "Loghi verdi o certificazioni inventate dal marketing, senza standard né ente terzo. Esempio IT: produttore di chipset che crea un badge \"Green Certified\" proprio e lo mette sui datasheet.",
+      "flavorText": "\"Un bollino non è una certificazione\"",
+      "styleClass": "peccato"
+    },
+    {
+      "title": "Peccato 5: Irrilevanza (Irrelevance)",
+      "headerIcon": "⚖️",
+      "heroImage": "🎯",
+      "type": "PECCATO",
+      "description": "Claim vero ma non materiale per il business. Esempio IT: software house che dichiara \"uffici carbon neutral\" ignorando la cloud infrastructure, che vale il 99% dell'impatto reale.",
+      "flavorText": "\"Bravo, ma il tuo impatto è nei server\"",
+      "styleClass": "peccato"
+    },
+    {
+      "title": "Peccato 6: Il male minore (Lesser of Two Evils)",
+      "headerIcon": "⚖️",
+      "heroImage": "🥈",
+      "type": "PECCATO",
+      "description": "Meglio del peggiore, ma comunque impattante. Esempio IT: blockchain che dichiara \"85% meno consumi rispetto a Bitcoin\", vero, ma consuma comunque 50 TWh/anno e tace il mix energetico.",
+      "flavorText": "\"Meno peggio non significa bene\"",
+      "styleClass": "peccato"
+    },
+    {
+      "title": "Peccato 7: Mentire (Lying)",
+      "headerIcon": "⚖️",
+      "heroImage": "🤥",
+      "type": "PECCATO",
+      "description": "Dichiarare dati falsi. Esempio IT: provider cloud che promette uptime 99,99% con energia rinnovabile in una regione con mix energetico al 70% fossile. Dati completamente falsati.",
+      "flavorText": "\"Qui non c'è ambiguità: è falso\"",
+      "styleClass": "peccato"
+    },
+    {
+      "title": "Template di comunicazione (§11.3.1)",
+      "headerIcon": "📋",
+      "heroImage": "📝",
+      "type": "REFERENCE CARD",
+      "description": "CLAIM (cosa diciamo), DATI (numeri + fonte), METODOLOGIA (come calcolati), LIMITI (cosa non include), PROSSIMI PASSI (cosa faremo). Se salti anche 1 sola sezione, il claim non si pubblica.",
+      "flavorText": "\"Se non completi il template, non pubblicare\"",
+      "styleClass": "reference"
+    },
+    {
+      "title": "Quadro normativo — Empowering Consumers",
+      "headerIcon": "📋",
+      "heroImage": "🇪🇺",
+      "type": "REFERENCE CARD",
+      "description": "Dal 27 settembre 2026 la direttiva 2024/825 vieta claim ambientali generici senza prove e neutralità basata su offset. Greenwashing = inganno; il progresso imperfetto ma onesto resta lecito.",
+      "flavorText": "\"Dal peccato al reato\"",
+      "styleClass": "reference"
+    }
+  ],
+  "istruzioni": {
+    "preparazione": "Stampa le 21 carte (12 Claim + 7 Peccato + 2 Reference) in formato A6 su cartoncino da 300 grammi. Oppure usa la versione digitale su lavagna Miro. Disponi le 7 Peccato Cards in fila al centro del tavolo, sempre visibili, con accanto le 2 Reference Cards. Mescola le 12 Claim Cards in un mazzo coperto.",
+    "nota_normativa": "Aggiornamento 2026: dal 27 settembre 2026 si applica la direttiva Empowering Consumers (2024/825), che vieta i claim ambientali generici senza prove verificabili e i claim di neutralità carbonica basati su compensazioni. La Green Claims Directive è stata congelata nel 2025, ma quello che resta basta a trasformare Vaghezza e Compromesso nascosto da errori di stile a rischi legali.",
+    "fase_uno": "IL TRIBUNALE, 8 minuti: ogni partecipante pesca 2-3 Claim Cards dal mazzo. Per ogni claim decide: quale dei 7 peccati commette? Oppure è legittimo? Posiziona la carta sotto la Peccato Card corrispondente, o nella zona Assolti, annotando in 1 riga la motivazione. Attenzione: nel mazzo ci sono 2 claim legittimi e alcuni claim veri ma comunque peccaminosi. Output: tutte le 12 Claim Cards classificate individualmente.",
+    "fase_due": "IL VERDETTO, 7 minuti: il team riesamina insieme la classificazione, partendo dai casi contesi. Per ogni claim conteso: cosa dice esattamente? Cosa omette? È verificabile? La regola: un claim può essere vero e restare greenwashing, se omette o confonde. Verifica ogni verdetto con la definizione sulla Peccato Card e conferma gli Assolti col test delle 3 domande: ha un numero? Ha una fonte? Ha una data? Output: verdetto condiviso per tutte le 12 carte.",
+    "fase_tre": "LA RISCRITTURA, 10 minuti: il team sceglie 1 claim bocciato e lo riscrive con il template della Reference Card: CLAIM, DATI, METODOLOGIA, LIMITI, PROSSIMI PASSI. Dove i dati mancano, inventa numeri plausibili ma dichiara i limiti in modo esplicito. Debrief finale: dove passa il confine tra greenwashing (inganno) e comunicazione imperfetta ma onesta? Quali dei claim bocciati diventano rischi legali dal 27 settembre 2026 con la direttiva 2024/825? Output: 1 claim riscritto nelle 5 sezioni del template.",
+    "risultato": "Le 12 Claim Cards classificate nei 7 peccati o assolte con verdetto condiviso, 1 claim bocciato riscritto con il template a 5 sezioni (CLAIM, DATI, METODOLOGIA, LIMITI, PROSSIMI PASSI), e un criterio di squadra per distinguere greenwashing da comunicazione imperfetta ma onesta, con consapevolezza del rischio legale post 27 settembre 2026."
+  }
+}

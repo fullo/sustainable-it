@@ -1,195 +1,197 @@
 {
-  "titolo": "Esercizio #2: Autovalutazione della Maturità",
-  "sottotitolo": "Posizionati sul Modello Gartner, identifica le lacune critiche",
-  "icona_esercizio": "📊",
-  "durata": "40 minuti (30 minuti esercizio + 10 minuti debrief)",
-  "partecipanti": "3-6 persone (Direttore Tecnologia, Direttore Finanziario, Operazioni, Responsabile Sostenibilità)",
-  "carte": [
+  "title": "Esercizio #2: Autovalutazione della Maturità",
+  "subtitle": "Posizionati sul Modello Gartner, identifica le lacune critiche",
+  "deckIcon": "📊",
+  "cardBackIcon": "🃏",
+  "copyright": "© 2026 Francesco Fullone — CC BY-NC-SA 4.0",
+  "durata": "20 minuti (versione libro, individuale o in coppia, Cap. 2 §2.10) — variante workshop di gruppo: 40 minuti (30 minuti esercizio + 10 minuti debrief)",
+  "partecipanti": "Tu e un collega, o da solo (versione libro) — variante workshop: 3-6 persone (es. CTO, CFO, Operations, Responsabile Sostenibilità)",
+  "cards": [
     {
-      "titolo": "Comitato Sostenibilità",
-      "icona": "🏛️",
-      "emoji": "👥",
-      "tipo": "DOMANDA - GOVERNO",
+      "title": "Comitato Sostenibilità",
+      "headerIcon": "🏛️",
+      "heroImage": "👥",
+      "type": "DOMANDA - GOVERNO",
       "dimensione": "GOVERNO",
-      "testo": "Esiste un comitato sostenibilità formale con rappresentanza interfunzionale (Tecnologia, Finanza, Operazioni, Risorse Umane) e mandato chiaro? Opzioni di risposta: un punto se nessun comitato. Due punti se comitato informale, riunioni su richiesta. Tre punti se comitato formale ma solo rappresentanza tecnologia. Quattro punti se comitato interfunzionale, riunioni mensili. Cinque punti se comitato interfunzionale con sponsor esecutivo e budget dedicato.",
-      "flavor": "\"La governance è il primo passo, senza non vai da nessuna parte\"",
-      "classe": "domanda-governo"
+      "description": "Comitato sostenibilità interfunzionale (Tech, Finanza, Operazioni, HR) con mandato chiaro? 1=assente, 2=informale, 3=solo Tech, 4=interfunzionale mensile, 5=sponsor esecutivo e budget.",
+      "flavorText": "\"La governance è il primo passo, senza non vai da nessuna parte\"",
+      "styleClass": "domanda-governo"
     },
     {
-      "titolo": "Sostenibilità negli Obiettivi di Prestazione",
-      "icona": "🎯",
-      "emoji": "📈",
-      "tipo": "DOMANDA - GOVERNO",
+      "title": "Sostenibilità negli Obiettivi di Prestazione",
+      "headerIcon": "🎯",
+      "heroImage": "📈",
+      "type": "DOMANDA - GOVERNO",
       "dimensione": "GOVERNO",
-      "testo": "La sostenibilità tecnologica è inclusa negli obiettivi di prestazione di dirigenti e manager con responsabilità chiara? Opzioni di risposta: un punto se nessun obiettivo sostenibilità. Due punti se obiettivi vaghi senza responsabilità. Tre punti se obiettivi solo per responsabile sostenibilità. Quattro punti se obiettivi per dirigenza tecnologia con indicatori misurabili. Cinque punti se obiettivi interorganizzativi con incentivi e disincentivi legati.",
-      "flavor": "\"Quello che misuri è quello che ottieni\"",
-      "classe": "domanda-governo"
+      "description": "Sostenibilità IT negli obiettivi di dirigenti e manager con responsabilità chiara? 1=nessuno, 2=vago, 3=solo responsabile sostenibilità, 4=dirigenza tech con KPI, 5=incentivi legati.",
+      "flavorText": "\"Quello che misuri è quello che ottieni\"",
+      "styleClass": "domanda-governo"
     },
     {
-      "titolo": "Piano Sostenibilità Tecnologica",
-      "icona": "📋",
-      "emoji": "🗺️",
-      "tipo": "DOMANDA - PIANIFICAZIONE",
+      "title": "Piano Sostenibilità Tecnologica",
+      "headerIcon": "📋",
+      "heroImage": "🗺️",
+      "type": "DOMANDA - PIANIFICAZIONE",
       "dimensione": "PIANIFICAZIONE",
-      "testo": "Esiste un piano sostenibilità tecnologica scritto con traguardi chiari, responsabili assegnati e tempi definiti? Opzioni di risposta: un punto se nessun piano scritto. Due punti se documento intenti generico senza traguardi. Tre punti se piano base con alcuni traguardi ma senza responsabili. Quattro punti se piano dettagliato con traguardi, responsabili, tempi un anno. Cinque punti se piano strategico pluriennale da tre a cinque anni con analisi scenari.",
-      "flavor": "\"Un obiettivo senza piano è solo un desiderio\"",
-      "classe": "domanda-pianificazione"
+      "description": "Esiste un piano scritto con traguardi, responsabili e tempi? 1=nessun piano, 2=intenti generici, 3=piano base senza responsabili, 4=dettagliato a 1 anno, 5=pluriennale (3-5 anni) con scenari.",
+      "flavorText": "\"Un obiettivo senza piano è solo un desiderio\"",
+      "styleClass": "domanda-pianificazione"
     },
     {
-      "titolo": "Copertura Ambiti Piano",
-      "icona": "🎯",
-      "emoji": "📍",
-      "tipo": "DOMANDA - PIANIFICAZIONE",
+      "title": "Copertura Ambiti Piano",
+      "headerIcon": "🎯",
+      "heroImage": "📍",
+      "type": "DOMANDA - PIANIFICAZIONE",
       "dimensione": "PIANIFICAZIONE",
-      "testo": "Il piano sostenibilità copre tutte le aree rilevanti: centro dati, infrastruttura, dispositivi, rete, software, approvvigionamento? Opzioni di risposta: un punto se nessuna copertura strutturata. Due punti se focus solo su una area, ad esempio solo elettricità. Tre punti se copertura parziale due tre aree. Quattro punti se copertura completa ma profondità variabile. Cinque punti se copertura complessiva con roadmap per ogni area.",
-      "flavor": "\"Ottimizzazione parziale non è uguale a ottimizzazione di sistema\"",
-      "classe": "domanda-pianificazione"
+      "description": "Il piano copre le aree rilevanti: data center, dispositivi, rete, software, procurement? 1=nessuna copertura, 2=1 area, 3=2-3 aree, 4=copertura completa a profondità variabile, 5=roadmap per area.",
+      "flavorText": "\"Ottimizzazione parziale non è ottimizzazione di sistema\"",
+      "styleClass": "domanda-pianificazione"
     },
     {
-      "titolo": "Obiettivi di Riduzione Quantificati",
-      "icona": "🎯",
-      "emoji": "📉",
-      "tipo": "DOMANDA - RIDUZIONE",
+      "title": "Obiettivi di Riduzione Quantificati",
+      "headerIcon": "🎯",
+      "heroImage": "📉",
+      "type": "DOMANDA - RIDUZIONE",
       "dimensione": "RIDUZIONE",
-      "testo": "Avete obiettivi di riduzione emissioni tecnologiche quantificati, con target numerici, baseline, scadenze e monitoraggio progresso? Opzioni di risposta: un punto se nessun obiettivo di riduzione definito. Due punti se obiettivo generico tipo ridurre emissioni senza target numerico. Tre punti se target numerico annuale esempio meno dieci percento ma senza baseline verificata. Quattro punti se target Science-Based con baseline verificata, milestone trimestrali e monitoraggio automatizzato. Cinque punti se target net-zero con roadmap pluriennale, milestone intermedie verificate, compensazione residua certificata e reporting pubblico terze parti.",
-      "flavor": "\"Senza un numero non è un obiettivo, è un desiderio\"",
-      "classe": "domanda-riduzione"
+      "description": "Obiettivi di riduzione IT quantificati con target, baseline, scadenze? 1=nessuno, 2=generico, 3=target annuale senza baseline, 4=Science-Based con milestone, 5=net-zero con reporting pubblico.",
+      "flavorText": "\"Senza un numero non è un obiettivo, è un desiderio\"",
+      "styleClass": "domanda-riduzione"
     },
     {
-      "titolo": "Frequenza Misurazione",
-      "icona": "📊",
-      "emoji": "📈",
-      "tipo": "DOMANDA - MISURAZIONE",
+      "title": "Frequenza Misurazione",
+      "headerIcon": "📊",
+      "heroImage": "📈",
+      "type": "DOMANDA - MISURAZIONE",
       "dimensione": "MISURAZIONE",
-      "testo": "Con quale frequenza misurate le emissioni tecnologiche negli ambiti uno due tre con metodologia riconosciuta dal Protocollo Gas Serra? Opzioni di risposta: un punto se mai misurato o solo stima iniziale anni fa. Due punti se misurazione una tantum senza seguito. Tre punti se misurazione annuale. Quattro punti se misurazione trimestrale con analisi tendenze. Cinque punti se monitoraggio mensile in tempo reale con cruscotto e avvisi.",
-      "flavor": "\"Misura due volte, taglia una. O misura sempre, ottimizza sempre.\"",
-      "classe": "domanda-misurazione"
+      "description": "Con che frequenza misurate le emissioni IT (Scope 1, 2, 3) con metodologia GHG Protocol? 1=mai, 2=una tantum, 3=annuale, 4=trimestrale, 5=mensile in tempo reale con avvisi.",
+      "flavorText": "\"Misura sempre, ottimizza sempre\"",
+      "styleClass": "domanda-misurazione"
     },
     {
-      "titolo": "Copertura Ambiti Misurazione",
-      "icona": "🔍",
-      "emoji": "📐",
-      "tipo": "DOMANDA - MISURAZIONE",
+      "title": "Copertura Ambiti Misurazione",
+      "headerIcon": "🔍",
+      "heroImage": "📐",
+      "type": "DOMANDA - MISURAZIONE",
       "dimensione": "MISURAZIONE",
-      "testo": "La misurazione copre quale ambito? Ambito uno emissioni dirette, Ambito due elettricità, Ambito tre catena fornitura infrastruttura carbonio incorporato dispositivi? Opzioni di risposta: un punto se nessuna misurazione strutturata. Due punti se solo Ambito due elettricità parziale. Tre punti se Ambito due completo. Quattro punti se Ambito due più Ambito tre parziale infrastruttura o dispositivi. Cinque punti se Ambito uno due tre completo con metodologia Protocollo Gas Serra.",
-      "flavor": "\"L'Ambito tre è l'ottanta percento delle emissioni tecnologiche, ignorarlo è ignorare il problema\"",
-      "classe": "domanda-misurazione"
+      "description": "Quale ambito coprite? 1=nessuna misurazione, 2=Scope 2 parziale, 3=Scope 2 completo, 4=Scope 2 più Scope 3 parziale, 5=Scope 1+2+3 completo con metodologia GHG Protocol.",
+      "flavorText": "\"Lo Scope 3 pesa molto: ignorarlo è ignorare il problema\"",
+      "styleClass": "domanda-misurazione"
     },
     {
-      "titolo": "Iniziative Riduzione Implementate",
-      "icona": "⚡",
-      "emoji": "📉",
-      "tipo": "DOMANDA - RIDUZIONE",
+      "title": "Iniziative Riduzione Implementate",
+      "headerIcon": "⚡",
+      "heroImage": "📉",
+      "type": "DOMANDA - RIDUZIONE",
       "dimensione": "RIDUZIONE",
-      "testo": "Quante iniziative concrete di riduzione emissioni tecnologiche avete implementato negli ultimi dodici mesi con impatto misurabile? Opzioni di risposta: un punto se zero iniziative strutturate. Due punti se una due iniziative su richiesta. Tre punti se tre cinque iniziative con monitoraggio base. Quattro punti se cinque dieci iniziative prioritizzate per ritorno investimento. Cinque punti se oltre dieci iniziative con ottimizzazione continua automatizzata.",
-      "flavor": "\"Le parole costano poco, le azioni contano davvero\"",
-      "classe": "domanda-riduzione"
+      "description": "Quante iniziative di riduzione con impatto misurabile avete implementato in 12 mesi? 1=zero, 2=1-2 su richiesta, 3=3-5 con monitoraggio base, 4=5-10 per ROI, 5=oltre 10 continue.",
+      "flavorText": "\"Le parole costano poco, le azioni contano davvero\"",
+      "styleClass": "domanda-riduzione"
     },
     {
-      "titolo": "Livello 1: Consapevole",
-      "icona": "🌱",
-      "emoji": "👀",
-      "tipo": "LIVELLO",
+      "title": "Livello 1: Consapevole",
+      "headerIcon": "🌱",
+      "heroImage": "👀",
+      "type": "LIVELLO",
       "livello": 1,
       "nome": "Consapevole",
-      "testo": "CARATTERISTICHE: Consapevolezza iniziale che la sostenibilità tecnologica esiste come tema. Nessun processo formale. Nessuna governance, nessun comitato. Misurazione assente o sporadica. Nessuna responsabilità. Emissioni tecnologiche superiori a cinquecento chilogrammi di CO2 equivalente per dipendente all'anno. ESEMPIO: GreenFinance Q1 2023, centocinquanta dipendenti, zero governance formale, Marco CTO scopre feature notifiche che costa centoquarantaquattromila euro all'anno senza budget approval (Cap. 1). PROSSIMO PASSO: Per passare al Livello 2 AGIRE, creare comitato sostenibilità informale, fare misurazione baseline una tantum, identificare due tre vittorie rapide.",
-      "flavor": "\"Sapere è metà della battaglia\"",
-      "classe": "livello-consapevole"
+      "description": "Consapevolezza iniziale, zero governance, zero misurazione. Emissioni IT oltre 500 kg CO2e/dip/anno. Esempio: GreenFinance Q1 2023, 150 dip, Marco scopre feature da €144k/anno (Cap. 1).",
+      "flavorText": "\"Sapere è metà della battaglia\"",
+      "styleClass": "livello-consapevole"
     },
     {
-      "titolo": "Livello 2: Agire",
-      "icona": "🚀",
-      "emoji": "▶️",
-      "tipo": "LIVELLO",
+      "title": "Livello 2: Agire",
+      "headerIcon": "🚀",
+      "heroImage": "▶️",
+      "type": "LIVELLO",
       "livello": 2,
       "nome": "Agire",
-      "testo": "CARATTERISTICHE: Approccio sistematico. Responsabile sostenibilità nominato anche part-time. Misurazione annuale baseline. Prime iniziative vittorie rapide implementate. Budget su richiesta. Emissioni tecnologiche circa trecentosettantacinque chilogrammi di CO2 equivalente per dipendente all'anno. PROSSIMO PASSO: Per passare al Livello 3 RAGGIUNGERE, formalizzare governance con comitato interfunzionale, budget dedicato, piano scritto con traguardi, misurazione trimestrale.",
-      "flavor": "\"L'azione batte la perfezione\"",
-      "classe": "livello-agire"
+      "description": "Approccio sistematico, champion nominato anche part-time, baseline annuale, prime vittorie rapide, budget su richiesta. Emissioni IT circa 375 kg CO2e/dipendente/anno.",
+      "flavorText": "\"L'azione batte la perfezione\"",
+      "styleClass": "livello-agire"
     },
     {
-      "titolo": "Livello 3: Raggiungere",
-      "icona": "🎯",
-      "emoji": "✅",
-      "tipo": "LIVELLO",
+      "title": "Livello 3: Raggiungere",
+      "headerIcon": "🎯",
+      "heroImage": "✅",
+      "type": "LIVELLO",
       "livello": 3,
       "nome": "Raggiungere",
-      "testo": "CARATTERISTICHE: Processi standardizzati. Governance formale con comitato interfunzionale e budget dedicato. Misurazione trimestrale ambiti uno due tre. Piano pluriennale con traguardi e responsabili. Da cinque a dieci iniziative attive. Emissioni tecnologiche circa duecentocinquanta chilogrammi di CO2 equivalente per dipendente all'anno. ESEMPIO: GreenFinance Q3 2023, duecento dipendenti, Sara C. nominata Head of Sustainability full-time, SOFT framework implementato con quattro pilastri, misurazione baseline trecentotrenta tonnellate CO2e all'anno, cinque iniziative attive (Cap. 3). PROSSIMO PASSO: Per passare al Livello 4 AVANZARE, automazione monitoraggio tempo reale, integrazione sostenibilità in ogni decisione tecnologica, ottimizzazione guidata da metriche, coinvolgimento proattivo fornitori.",
-      "flavor": "\"La coerenza batte l'intensità\"",
-      "classe": "livello-raggiungere"
+      "description": "Processi standardizzati, comitato formale, budget dedicato, misurazione trimestrale Scope 1-2-3. Emissioni IT 250 kg CO2e/dip/anno. GreenFinance: da 21/75 a 43/75 in 6 mesi (Cap. 2).",
+      "flavorText": "\"La coerenza batte l'intensità\"",
+      "styleClass": "livello-raggiungere"
     },
     {
-      "titolo": "Livello 4: Avanzare",
-      "icona": "📊",
-      "emoji": "🚀",
-      "tipo": "LIVELLO",
+      "title": "Livello 4: Avanzare",
+      "headerIcon": "📊",
+      "heroImage": "🚀",
+      "type": "LIVELLO",
       "livello": 4,
       "nome": "Avanzare",
-      "testo": "CARATTERISTICHE: Ottimizzazione guidata da metriche. Monitoraggio tempo reale con avvisi automatici. Sostenibilità integrata in ogni processo tecnologico: approvvigionamento, sviluppo, operazioni. Oltre dieci iniziative con miglioramento continuo. Valutazione fornitori attiva. Emissioni tecnologiche circa centoventicinque chilogrammi di CO2 equivalente per dipendente all'anno. ESEMPIO: GreenFinance Q2 2024, duecentosettanta dipendenti, Marco CTO ha implementato governance RACI, Oversight Committee mensile, carbon budget allocation per team, Software Carbon Intensity monitorato in CI/CD, emissioni ridotte a duecentottanta tonnellate CO2e meno quindici percento (Cap. 10). PROSSIMO PASSO: Per passare al Livello 5 AMPLIFICARE, diventare leader di settore, condivisione pubblica pratiche migliori, co-innovazione con fornitori, influenza standard settore, obiettivo zero netto.",
-      "flavor": "\"L'eccellenza non è una destinazione, è un'abitudine\"",
-      "classe": "livello-avanzare"
+      "description": "Ottimizzazione guidata da metriche, monitoraggio real-time con alert, RACI e Oversight Committee, carbon budget per team, oltre 10 iniziative. Emissioni IT circa 125 kg CO2e/dip/anno.",
+      "flavorText": "\"L'eccellenza è un'abitudine, non una destinazione\"",
+      "styleClass": "livello-avanzare"
     },
     {
-      "titolo": "Livello 5: Amplificare",
-      "icona": "🏆",
-      "emoji": "🌟",
-      "tipo": "LIVELLO",
+      "title": "Livello 5: Amplificare",
+      "headerIcon": "🏆",
+      "heroImage": "🌟",
+      "type": "LIVELLO",
       "livello": 5,
       "nome": "Amplificare",
-      "testo": "CARATTERISTICHE: Leadership di settore. Miglioramento continuo incorporato nella cultura. Condivisione pubblica pratiche con blog, conferenze, codice aperto. Co-innovazione con fornitori su sostenibilità. Influenza standard settore. Obiettivo zero netto o carbonio negativo. Emissioni tecnologiche circa zero chilogrammi di CO2 equivalente per dipendente all'anno. PROSSIMO PASSO: Mantenimento leadership con innovazione continua, sostegno settore, tutoraggio altre organizzazioni, spinta ecosistema fornitori verso sostenibilità.",
-      "flavor": "\"I leader non seguono, amplificano\"",
-      "classe": "livello-amplificare"
+      "description": "Leadership di settore, pratiche condivise pubblicamente, co-innovazione coi fornitori, influenza su standard di settore, obiettivo net-zero o carbon-negative. Emissioni IT vicine a 0 kg CO2e/dip/anno.",
+      "flavorText": "\"I leader non seguono, amplificano\"",
+      "styleClass": "livello-amplificare"
     },
     {
-      "titolo": "Gartner Maturity Model - Guida Rapida",
-      "icona": "📊",
-      "emoji": "📋",
-      "tipo": "REFERENCE CARD",
-      "testo": "MODELLO GARTNER CINQUE LIVELLI: L1 CONSAPEVOLE Aware sappiamo problema esiste, zero processi, emissioni oltre cinquecento chilogrammi CO2e per dipendente anno, tre sei mesi permanenza. L2 AGIRE Act facciamo qualcosa informale, champion part-time, budget one-time, baseline annuale, emissioni trecentosettantacinque chilogrammi, sei dodici mesi. L3 RAGGIUNGERE Achieve processi standardizzati, governance formale comitato cross-funzionale, budget ricorrente duecentomila cinquecento mila euro anno, Head Sustainability full-time, misurazione trimestrale Scope uno due tre, cinque dieci iniziative coordinate SOFT framework, emissioni duecentocinquanta chilogrammi, dodici ventiquattro mesi. ESEMPIO GreenFinance Q3 2023 duecento dipendenti Sara C. Head Sustainability budget quattrocentomila euro biennale. L4 AVANZARE Advance ottimizzazione guidata metriche, monitoraggio real-time alert automatici, RACI matrix Oversight Committee mensile C-level, carbon budget per team, oltre dieci iniziative continuous improvement, vendor evaluation attiva, emissioni centoventiquattro chilogrammi, ventiquattro mesi plus. ESEMPIO GreenFinance Q2 2024 duecentosettanta dipendenti Marco CTO accountable SCI in CI CD meno quindici percento emissioni. L5 AMPLIFICARE Amplify industry leadership, CEO Board coinvolti, public reporting third-party verified, co-innovazione vendor, influenza standard, net-zero carbon-negative, emissioni sotto cinquanta chilogrammi. TEST DECISIVO: se champion sustainability lascia domani iniziative continuano? NO uguale L1 L2 person-dependent. SI uguale L3 plus process-dependent.",
-      "flavor": "\"Self-awareness è il primo passo verso improvement\"",
-      "classe": "reference"
+      "title": "Gartner Maturity Model - Guida Rapida",
+      "headerIcon": "📊",
+      "heroImage": "📋",
+      "type": "REFERENCE CARD",
+      "description": "5 livelli: L1 Aware (>500 kg/dip) · L2 Act (~375) · L3 Achieve (~250) · L4 Advance (~125) · L5 Amplify (~0). Test: se il champion lascia domani, le iniziative continuano? No=L1/L2, Sì=L3+.",
+      "flavorText": "\"L'autoconsapevolezza è il primo passo del miglioramento\"",
+      "styleClass": "reference"
     },
     {
-      "titolo": "Impact × Feasibility Matrix",
-      "icona": "🎯",
-      "emoji": "📐",
-      "tipo": "REFERENCE CARD",
-      "testo": "PRIORITIZZAZIONE GAP CON MATRIX DUE PER DUE. QUADRANTI: Q1 HIGH IMPACT HIGH FEASIBILITY uguale QUICK WINS priorità MASSIMA azione immediata sotto trenta giorni esempio install Cloud Carbon Footprint tool OSS Impact abilita measurement Feasibility due settimane setup. Q2 HIGH IMPACT LOW FEASIBILITY uguale STRATEGIC PROJECTS priorità ALTA planning necessario roadmap tre sei mesi esempio governance formale comitato cross-funzionale Impact sblocca L2 L3 Feasibility richiede executive buy-in. Q3 LOW IMPACT LOW FEASIBILITY uguale DEPRIORITIZE non ora forse mai esempio training diffuso Green Coding Impact awareness non azione Feasibility effort alto. Q4 LOW IMPACT HIGH FEASIBILITY uguale FILL-INS fai se tempo extra non blocker esempio vendor scorecard template Impact medio Feasibility un giorno. VALUTAZIONE IMPACT scala uno cinque: cinque uguale gap prerequisito altri esempio Measurement verso Reporting. Quattro uguale gap blocca progression livello esempio Budget verso Initiatives. Tre uguale gap migliora efficiency non blocker. Due uguale gap nice-to-have. Uno uguale gap marginale. VALUTAZIONE FEASIBILITY scala uno cinque: cinque uguale sotto un mese zero blockers owner chiaro. Quattro uguale uno tre mesi minimal blockers. Tre uguale tre sei mesi richiede approval realistico. Due uguale sei dodici mesi blockers significativi. Uno uguale oltre dodici mesi blockers insormontabili. COME USARE: per ogni gap identificato score Impact Feasibility. Plotta su matrix due per due. Focus ESCLUSIVO Q1 quick wins primi tre mesi. Poi Q2 strategic con planning adeguato.",
-      "flavor": "\"Prioritizzazione oggettiva batte gut feeling sempre\"",
-      "classe": "reference"
+      "title": "Impact × Feasibility Matrix",
+      "headerIcon": "🎯",
+      "heroImage": "📐",
+      "type": "REFERENCE CARD",
+      "description": "Per gap: Impact 1-5 (5=prerequisito per altri) e Feasibility 1-5 (5=meno di 1 mese). Q1 alto/alto=vittoria rapida, Q2 alto/basso=strategico, Q3 basso/basso=deprioritizza, Q4 basso/alto=riempitivo.",
+      "flavorText": "\"La prioritizzazione oggettiva batte il gut feeling\"",
+      "styleClass": "reference"
     },
     {
-      "titolo": "L2→L3 Transition Checklist",
-      "icona": "📋",
-      "emoji": "✅",
-      "tipo": "REFERENCE CARD",
-      "testo": "CHECKLIST CINQUE AZIONI MINIME PER PASSARE DA L2 AGIRE A L3 RAGGIUNGERE. AZIONE UNO GOVERNANCE FORMALE: Creare comitato sostenibilità interfunzionale con rappresentanza Tecnologia Finanza Operazioni Sostenibilità. Riunioni mensili cadenza fissa. Sponsor esecutivo C-level. Budget dedicato duecentomila cinquecento mila euro anno. Esempio GreenFinance Sara C. nominata Head Sustainability full-time reporting CTO. AZIONE DUE MISURAZIONE STRUTTURATA: Baseline completa Scope uno due tre con metodologia GHG Protocol. Frequenza trimestrale minimo. Tool installato esempio Cloud Carbon Footprint oppure vendor-specific AWS Customer Carbon Footprint Azure Emissions Impact Dashboard. Esempio GreenFinance baseline trecentotrenta tonnellate CO2e anno. AZIONE TRE PIANO SCRITTO: Documento strategico pluriennale tre cinque anni con traguardi SMART quantificati responsabili assegnati RACI. Framework di riferimento esempio SOFT Strategy Implementation Operations Compliance. Revisione trimestrale obbligatoria. Esempio GreenFinance piano biennale budget quattrocentomila euro obiettivo meno venti percento emissioni. AZIONE QUATTRO INIZIATIVE COORDINATE: Minimo cinque iniziative attive simultanee cross-pillar SOFT. Prioritizzate con Impact Feasibility Matrix. Ownership chiara RACI per iniziativa. Tracking avanzamento mensile. Esempio GreenFinance rightsizing cloud plus decommissioning plus lifecycle extension plus green coding plus procurement. AZIONE CINQUE ACCOUNTABILITY: OKR sostenibilità in performance review dirigenti e manager. Metriche legate incentivi disincentivi. Reporting trimestrale risultati a leadership. Esempio GreenFinance Marco CTO ha OKR riduzione quindici percento SCI con quarterly review. TEST DECISIVO L3: Se Head Sustainability lascia domani iniziative continuano? NO uguale ancora L2 person-dependent. SI uguale L3 raggiunto process-dependent. TEMPISTICA REALISTICA: L2 L3 transition richiede dodici ventiquattro mesi. Quick win possibili entro tre sei mesi ma consolidamento governance processi richiede tempo. Non saltare step governance per fare solo iniziative tecniche rischio fallimento.",
-      "flavor": "\"From chaos to system: governance first, initiatives second\"",
-      "classe": "reference"
+      "title": "L2→L3 Transition Checklist",
+      "headerIcon": "📋",
+      "heroImage": "✅",
+      "type": "REFERENCE CARD",
+      "description": "Da Agire a Raggiungere serve: comitato interfunzionale, budget ricorrente, ruolo sostenibilità nominato, misurazione trimestrale Scope 1-2-3, 5-10 iniziative coordinate, policy scritta e approvata.",
+      "flavorText": "\"Dal caos al sistema: prima la governance\"",
+      "styleClass": "reference"
     },
     {
-      "titolo": "Engagement Fornitori Sostenibilità",
-      "icona": "🤝",
-      "emoji": "🌍",
-      "tipo": "DOMANDA - COINVOLGIMENTO",
+      "title": "Engagement Fornitori Sostenibilità",
+      "headerIcon": "🤝",
+      "heroImage": "🌍",
+      "type": "DOMANDA - COINVOLGIMENTO",
       "dimensione": "COINVOLGIMENTO",
-      "testo": "Chiedete ai fornitori critici informazioni sulla loro impronta carbonica e obiettivi sostenibilità? Opzioni di risposta: un punto se nessun engagement fornitori su sostenibilità. Due punti se richieste informative sporadiche senza sistematicità. Tre punti se valutazione fornitori include criteri sostenibilità base e CSR labels. Quattro punti se scorecard formale fornitori con Scope 1, 2, 3, carbon target e disclosure. Cinque punti se partnership strategica fornitori con co-innovation, sustainability roadmap condivisa e incentivi di contratto legati a obiettivi carbonio.",
-      "flavor": "\"Fornitori non ingaggiati su sostenibilità sono rischio nascosto\"",
-      "classe": "domanda-coinvolgimento"
+      "description": "Chiedete ai fornitori critici la loro impronta carbonica e obiettivi? 1=nessuno, 2=sporadico, 3=criteri base e label CSR, 4=scorecard con Scope 1-2-3, 5=partnership con co-innovation e incentivi.",
+      "flavorText": "\"Fornitori non coinvolti sulla sostenibilità sono un rischio nascosto\"",
+      "styleClass": "domanda-coinvolgimento"
     },
     {
-      "titolo": "Formazione Dipendenti Pratiche Sostenibili",
-      "icona": "🎓",
-      "emoji": "👨‍💼",
-      "tipo": "DOMANDA - COINVOLGIMENTO",
+      "title": "Formazione Dipendenti Pratiche Sostenibili",
+      "headerIcon": "🎓",
+      "heroImage": "👨‍💼",
+      "type": "DOMANDA - COINVOLGIMENTO",
       "dimensione": "COINVOLGIMENTO",
-      "testo": "Fornite formazione strutturata ai dipendenti IT su coding sostenibile, gestione energetica infrastruttura ed eco-design? Opzioni di risposta: un punto se nessun programma formazione sostenibilità. Due punti se formazione ad hoc sporadica non strutturata. Tre punti se workshop annuale su green coding per parte del team sviluppo. Quattro punti se programma formazione strutturato trimestrale per tutti gli sviluppatori con certificazione opzionale Green Software Foundation. Cinque punti se formazione obbligatoria per tutto il team IT con onboarding sostenibilità per nuovi assunti, budget dedicato, competenze valutate in performance review.",
-      "flavor": "\"Dipendenti formati su sostenibilità diventano champions interni\"",
-      "classe": "domanda-coinvolgimento"
+      "description": "Formazione su coding sostenibile, gestione energetica ed eco-design? 1=nessuna, 2=ad hoc, 3=workshop annuale parziale, 4=trimestrale con certificazione GSF, 5=obbligatoria con budget dedicato.",
+      "flavorText": "\"Dipendenti formati diventano champion interni\"",
+      "styleClass": "domanda-coinvolgimento"
     }
   ],
   "griglia_maturita": {
-    "descrizione": "Griglia cinque per cinque: Righe uguale cinque dimensioni Governo Pianificazione Misurazione Riduzione Coinvolgimento, Colonne uguale cinque livelli da uno a cinque",
+    "descrizione": "Griglia 5x5: righe = 5 dimensioni (Governo, Pianificazione, Misurazione, Riduzione, Coinvolgimento), colonne = 5 livelli da 1 a 5.",
     "dimensioni": [
       {
         "nome": "GOVERNO",
@@ -218,29 +220,32 @@
       }
     ],
     "punteggio": {
-      "totale_punti": 75,
-      "punti_per_dimensione": 15,
+      "totale_punti": 50,
+      "punti_per_dimensione": 10,
+      "nota": "Il mazzo ha 10 domande (2 per dimensione, 5 punti massimo ciascuna): punteggio massimo 50, 10 per dimensione. Il toolkit Gartner completo citato nel libro (Cap. 2 Insight) ha 15 domande (3 per dimensione) e usa la scala 15-75 punti — è lo strumento con cui GreenFinance ottiene 21/75 poi 43/75.",
       "interpretazione": [
-        "15-25 punti: Livello 1 CONSAPEVOLE",
-        "26-35 punti: Livello 2 AGIRE",
-        "36-50 punti: Livello 3 RAGGIUNGERE",
-        "51-65 punti: Livello 4 AVANZARE",
-        "66-75 punti: Livello 5 AMPLIFICARE"
+        "10-18 punti: Livello 1 CONSAPEVOLE",
+        "19-25 punti: Livello 2 AGIRE",
+        "26-35 punti: Livello 3 RAGGIUNGERE",
+        "36-43 punti: Livello 4 AVANZARE",
+        "44-50 punti: Livello 5 AMPLIFICARE"
       ]
     }
   },
   "istruzioni": {
-    "preparazione": "Stampa diciotto carte A6 su cartoncino trecento grammi: cinque Livelli Gartner, dieci Domande Dimensioni (due per ogni dimensione: Governo, Pianificazione, Misurazione, Riduzione, Coinvolgimento), tre Reference Cards (Guida Rapida Gartner, Impact Feasibility Matrix, L2 L3 Transition Checklist). Prepara griglia maturità su lavagna fisica o digitale Miro Mural. Stampa Template Maturity Report uno per team.",
-    "turno_uno": "AUTO-ASSESSMENT quindici minuti: Per ogni dimensione dieci domande due per dimensione, team valuta livello attuale L1 L5 usando carte Livelli e Reference Card Guida Rapida più Checklist L2 L3 Transition. Compila griglia. Usa test decisivo: se champion lascia iniziative continuano? NO uguale L2, SI uguale L3 plus. Calcola livello complessivo moda.",
-    "turno_due": "GAP ANALYSIS dieci minuti: Identifica gap per ogni dimensione sotto L3. Score Impact uno cinque e Feasibility uno cinque usando carta Reference Impact Feasibility Matrix. Plotta gap su matrix due per due. Identifica top tre gap Quadrant Q1 Quick Wins high impact high feasibility. Documenta su Template Maturity Report.",
-    "turno_tre": "QUICK WINS ROADMAP cinque minuti: Per ogni gap top tre, definisci uno quick win sotto trenta giorni con Owner R Accountable A Deadline Output. Crea roadmap dodici mesi high-level Q1 Q2 Q3 Q4 milestone target livello L3 Raggiungere. Nomina Accountable roadmap. Commitment esplicito.",
-    "debrief": "DEBRIEF FINALE dieci minuti: Pattern Recognition tre minuti pattern dimensioni forti vs deboli. Blocker Analysis tre minuti root cause blocker uno budget executive buy-in skills. Integration Commitment quattro minuti Accountable nominato owner quick wins confirmed next checkpoint un mese scheduled.",
-    "risultato": "Template Maturity Report compilato completo: livello attuale per dimensione più livello complessivo più top tre gap con Impact Feasibility score più tre quick wins con owner deadline RACI più roadmap dodici mesi più commitment Accountable più next checkpoint più lesson learned"
+    "versione_libro": "Nel libro (Cap. 2 §2.10) l'esercizio dura 20 minuti, da solo o in coppia: Round 1 valutazione baseline (10 minuti), Round 2 identificazione del livello (5 minuti), Round 3 pianificazione azioni (5 minuti). Le sezioni seguenti descrivono la variante workshop di gruppo (40 minuti, 3-6 persone), più estesa e con debrief.",
+    "preparazione": "Stampa 18 carte A6 su cartoncino da 300 grammi: 5 Livelli, 10 Domande di valutazione (2 per ognuna delle 5 dimensioni: Governo, Pianificazione, Misurazione, Riduzione, Coinvolgimento), 3 Reference Card (Guida Rapida Gartner, Impact × Feasibility Matrix, Checklist L2→L3 Transition). Prepara la griglia di maturità su lavagna fisica o digitale (Miro/Mural). Stampa il Template Maturity Report, 1 per team.",
+    "turno_uno": "AUTO-ASSESSMENT, 15 minuti: per ognuna delle 5 dimensioni (2 domande a dimensione), il team valuta il livello attuale da 1 a 5 usando le carte Domanda, le carte Livello e la Guida Rapida più la Checklist L2→L3. Compila la griglia. Usa il test decisivo: se il champion lascia domani, le iniziative continuano? No=L1/L2, Sì=L3+. Somma i punteggi per dimensione (max 10) e il totale (max 50).",
+    "turno_due": "GAP ANALYSIS, 10 minuti: identifica il gap per ogni dimensione sotto il punteggio 7. Assegna Impact da 1 a 5 e Feasibility da 1 a 5 con la carta Impact × Feasibility Matrix. Individua i primi 3 gap nel quadrante Q1 (alto impatto, alta fattibilità). Documenta sul Template Maturity Report.",
+    "turno_tre": "QUICK WINS ROADMAP, 5 minuti: per ognuno dei primi 3 gap, definisci 1 azione sotto i 30 giorni con Owner (R), Accountable (A), scadenza e output. Crea una roadmap a 12 mesi ad alto livello (Q1-Q4) con target Livello 3 Raggiungere. Nomina l'Accountable della roadmap. Commitment esplicito.",
+    "debrief": "DEBRIEF FINALE, 10 minuti: Pattern Recognition (3 minuti) — dimensioni forti vs deboli. Blocker Analysis (3 minuti) — causa radice del blocco (budget, sponsorship esecutiva, competenze). Integration Commitment (4 minuti) — Accountable nominato, owner dei quick win confermati, prossimo checkpoint a 1 mese pianificato.",
+    "risultato": "Template Maturity Report compilato: livello attuale per dimensione più livello complessivo, primi 3 gap con punteggio Impact/Feasibility, 3 quick win con owner/scadenza/RACI, roadmap a 12 mesi, Accountable, prossimo checkpoint, lezioni apprese."
   },
   "materiali_extra": {
     "toolkit_gartner_url": "https://www.gartner.com/document/6803934",
-    "valutazione_excel": "Strumento scaricabile per valutazione completa settantacinque domande",
-    "guida_facilitatore": "PDF con script facilitazione completo",
-    "tutorial_video": "Quindici minuti guida passo passo esercizio"
+    "valutazione_excel": "Toolkit Gartner completo (richiede abbonamento): 15 domande, 3 per dimensione, scala 15-75 punti.",
+    "alternativa_gratuita": "Senza abbonamento Gartner: usa i 4 pilastri SOFT (Strategy, Implementation, Operations, Compliance — standard Green Software Foundation dal 2025, Cap. 3) come griglia di autovalutazione: per ogni pilastro chiediti se è assente, parziale o operativo (Cap. 2 Insight).",
+    "guida_facilitatore": "PDF con script di facilitazione completo.",
+    "tutorial_video": "15 minuti, guida passo passo all'esercizio."
   }
 }

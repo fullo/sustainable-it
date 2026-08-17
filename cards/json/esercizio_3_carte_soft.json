@@ -1,117 +1,120 @@
 {
-  "titolo": "Esercizio #3: SOFT Pillar Quick Check",
-  "sottotitolo": "Mappa le iniziative ai quattro pilastri, identifica i gap di copertura",
-  "icona_esercizio": "🏗️",
-  "durata": "40 minuti (30 minuti esercizio + 10 minuti debrief)",
-  "partecipanti": "3-6 persone (Direttore Tecnologia, Responsabile Operazioni, Responsabile Conformità, Responsabile Sostenibilità)",
-  "carte": [
+  "title": "Esercizio #3: SOFT Pillar Quick Check",
+  "subtitle": "Mappa le iniziative ai quattro pilastri, identifica i gap di copertura",
+  "deckIcon": "🏗️",
+  "cardBackIcon": "🃏",
+  "copyright": "© 2026 Francesco Fullone — CC BY-NC-SA 4.0",
+  "durata": "47 minuti (versione facilitata estesa: 2 min introduzione + 15+10+10 min esercizio + 10 min debrief). La versione rapida del libro (Cap. 3 §3.9) dura 20 minuti (5+10+5) senza debrief strutturato.",
+  "partecipanti": "3-6 persone (Direttore Tecnologia, Responsabile Operazioni, Responsabile Conformità, Responsabile Sostenibilità se esiste)",
+  "notaNormativa2026": "Le carte citano la CSRD con le regole pre-Omnibus (obbligo dal 2025 sopra i 250 dipendenti), coerenti con il caso GreenFinance del libro (2023-2024). Dal 18/3/2026 l'Omnibus ha alzato le soglie a oltre 1.000 dipendenti e €450M di fatturato; sotto soglia vale lo standard volontario VSME e la pressione arriva dai clienti enterprise che chiedono i dati Scope 3 ai fornitori.",
+  "cards": [
     {
-      "titolo": "Preparazione Rendicontazione CSRD",
-      "icona": "📄",
-      "emoji": "🇪🇺",
-      "tipo": "INIZIATIVA",
+      "title": "Preparazione Rendicontazione CSRD",
+      "headerIcon": "📄",
+      "heroImage": "🇪🇺",
+      "type": "INIZIATIVA",
       "pilastro_primario": "CONFORMITÀ",
-      "testo": "Progetto conformità Direttiva europea CSRD obbligatoria dal gennaio 2025. Mappatura requisiti standard ESRS. Gap analysis dati attuali. Implementazione raccolta dati ambito tre. Template rendicontazione automatizzato. Audit interno completato. Pronto per verifica esterna. Budget conformità cinquantamila euro. Responsabile: team conformità normativa.",
-      "flavor": "\"Conformità non è burocrazia, è accountability\"",
-      "classe": "iniziativa-conformita"
+      "description": "Progetto conformità CSRD (obbligo dal 2025, standard ESRS). Gap analysis dati, raccolta Scope 3, template automatizzato, audit interno completato. Budget: €50.000. Team conformità.",
+      "flavorText": "\"Conformità non è burocrazia, è accountability\"",
+      "styleClass": "iniziativa-conformita"
     },
     {
-      "titolo": "Reporting CDP e GRI",
-      "icona": "📊",
-      "emoji": "🌍",
-      "tipo": "INIZIATIVA",
+      "title": "Reporting CDP e GRI",
+      "headerIcon": "📊",
+      "heroImage": "🌍",
+      "type": "INIZIATIVA",
       "pilastro_primario": "CONFORMITÀ",
-      "testo": "Preparazione rendicontazione annuale per Carbon Disclosure Project e Global Reporting Initiative. Template standardizzati. Dati automaticamente popolati da sistemi interni. Verifica qualità dati. Pubblicazione rapporti su portali pubblici. Score CDP anno precedente: B. Target anno corrente: A. Pubblicazione aumenta trasparenza e attrae investitori ESG. Responsabile: team comunicazione sostenibilità.",
-      "flavor": "\"Trasparenza esterna guida credibilità\"",
-      "classe": "iniziativa-conformita"
+      "description": "Rendicontazione annuale per CDP e GRI. Template standardizzati, dati popolati automaticamente, verifica qualità, pubblicazione su portali pubblici. Team comunicazione sostenibilità.",
+      "flavorText": "\"Trasparenza esterna guida credibilità\"",
+      "styleClass": "iniziativa-conformita"
     },
     {
-      "titolo": "Vendor Sustainability Scorecard",
-      "icona": "📊",
-      "emoji": "🏆",
-      "tipo": "INIZIATIVA",
+      "title": "Vendor Sustainability Scorecard",
+      "headerIcon": "📊",
+      "heroImage": "🏆",
+      "type": "INIZIATIVA",
       "pilastro_primario": "CONFORMITÀ",
-      "testo": "Scorecard strutturata valutazione fornitori IT su criteri sostenibilità. Dimensioni valutazione: CSR labels (EcoVadis, ISO quattordicimilauno), Carbon transparency (CDP disclosure, Scope uno due tre published), GHG reduction targets (SBTi validated), Circular economy (percentage refurbishment, zero landfill commitment), Technical performance (PUE datacenter, renewable energy percentage). Scoring uno cinque per dimensione. Threshold minimo: tre su cinque average per approval. Review annuale vendor performance. Escalation se non compliant. Responsabile: procurement con sostenibilità.",
-      "flavor": "\"Measurement drives accountability, anche per i vendor\"",
-      "classe": "iniziativa-conformita"
+      "description": "Scorecard fornitori IT: CSR labels (EcoVadis, ISO 14001), carbon transparency (Scope 1/2/3), target SBTi, economia circolare, PUE datacenter. Scoring 1-5, soglia 3/5. Procurement.",
+      "flavorText": "\"Measurement drives accountability, anche per i vendor\"",
+      "styleClass": "iniziativa-conformita"
     },
     {
-      "titolo": "Misurazione Impronta Carbonica Infrastruttura",
-      "icona": "📊",
-      "emoji": "☁️",
-      "tipo": "INIZIATIVA",
+      "title": "Misurazione Impronta Carbonica Infrastruttura",
+      "headerIcon": "📊",
+      "heroImage": "☁️",
+      "type": "INIZIATIVA",
       "pilastro_primario": "IMPLEMENTAZIONE",
-      "testo": "Implementazione strumento Cloud Carbon Footprint per misurare emissioni ambito due da infrastruttura cloud. Installazione su tutti gli account produzione AWS Azure. Dashboard mensile con trend. Costo implementazione quindicimila euro. Copertura attuale: settanta percento servizi. Integrazione con Grafana. Responsabile: team operazioni infrastruttura.",
-      "flavor": "\"Non puoi migliorare quello che non misuri\"",
-      "classe": "iniziativa-implementazione"
+      "description": "Cloud Carbon Footprint per misurare emissioni Scope 2 da AWS/Azure. Dashboard mensile, integrata con Grafana. Costo: €15.000. Copertura: 70% servizi. Team operazioni infrastruttura.",
+      "flavorText": "\"Non puoi migliorare quello che non misuri\"",
+      "styleClass": "iniziativa-implementazione"
     },
     {
-      "titolo": "Integrazione Carbon Awareness nella Pipeline",
-      "icona": "🔧",
-      "emoji": "⚙️",
-      "tipo": "INIZIATIVA",
+      "title": "Integrazione Carbon Awareness nella Pipeline",
+      "headerIcon": "🔧",
+      "heroImage": "⚙️",
+      "type": "INIZIATIVA",
       "pilastro_primario": "IMPLEMENTAZIONE",
-      "testo": "Integrazione calcolo impatto carbonio nella pipeline sviluppo continuo CI CD. Ogni merge request mostra stima emissioni modifiche. Soglia automatica: merge bloccata se impatto superiore dieci percento senza giustificazione. Feedback immediato agli sviluppatori. Ottocento merge request valutate primo mese, quindici bloccate e ottimizzate. Responsabile: team piattaforma sviluppo.",
-      "flavor": "\"Ottimizza mentre sviluppi, non dopo\"",
-      "classe": "iniziativa-implementazione"
+      "description": "Calcolo impatto carbonio in pipeline CI/CD: ogni merge request mostra la stima emissioni. Blocco automatico se impatto >10% senza giustificazione. Primi 6 mesi: 800 MR valutate, 15 bloccate.",
+      "flavorText": "\"Ottimizza mentre sviluppi, non dopo\"",
+      "styleClass": "iniziativa-implementazione"
     },
     {
-      "titolo": "Ottimizzazione Utilizzo Server",
-      "icona": "⚡",
-      "emoji": "🖥️",
-      "tipo": "INIZIATIVA",
+      "title": "Ottimizzazione Utilizzo Server",
+      "headerIcon": "⚡",
+      "heroImage": "🖥️",
+      "type": "INIZIATIVA",
       "pilastro_primario": "OPERAZIONI",
-      "testo": "Progetto riduzione server inattivi e sovradimensionati. Audit infrastruttura identificato centoventi server con utilizzo medio inferiore al venti percento. Azione: spegnimento programmato sedici ore al giorno per carichi non critici. Ridimensionamento istanze sovradimensionate. Risparmio stimato: centoventimila euro all'anno, meno quindici percento emissioni. Responsabile: team operazioni.",
-      "flavor": "\"Server inattivo costa quanto attivo ma non produce valore\"",
-      "classe": "iniziativa-operazioni"
+      "description": "Riduzione server inattivi e sovradimensionati. Audit: 120 server con uso medio <20%. Spegnimento 16 ore/giorno per carichi non critici. Risparmio: €120.000/anno, -15% emissioni. Team operazioni.",
+      "flavorText": "\"Server inattivo costa quanto attivo ma non produce valore\"",
+      "styleClass": "iniziativa-operazioni"
     },
     {
-      "titolo": "Processo Miglioramento Continuo",
-      "icona": "🔄",
-      "emoji": "📈",
-      "tipo": "INIZIATIVA",
+      "title": "Processo Miglioramento Continuo",
+      "headerIcon": "🔄",
+      "heroImage": "📈",
+      "type": "INIZIATIVA",
       "pilastro_primario": "OPERAZIONI",
-      "testo": "Retrospettiva mensile team sostenibilità. Revisione metriche, identificazione opportunità ottimizzazione, assegnazione responsabili e scadenze. Template standardizzato: cosa ha funzionato, cosa non ha funzionato, tre azioni prioritarie. Dodici retrospettive completate primo anno, trentasei opportunità identificate, ventiquattro implementate. Responsabile: Responsabile Sostenibilità.",
-      "flavor": "\"Il miglioramento continuo batte la perfezione occasionale\"",
-      "classe": "iniziativa-operazioni"
+      "description": "Retrospettiva mensile team sostenibilità: revisione metriche, opportunità di ottimizzazione, responsabili e scadenze. Primo anno: 12 retrospettive, 36 opportunità, 24 implementate.",
+      "flavorText": "\"Il miglioramento continuo batte la perfezione occasionale\"",
+      "styleClass": "iniziativa-operazioni"
     },
     {
-      "titolo": "Comitato Governance Sostenibilità",
-      "icona": "🏛️",
-      "emoji": "👥",
-      "tipo": "INIZIATIVA",
+      "title": "Comitato Governance Sostenibilità",
+      "headerIcon": "🏛️",
+      "heroImage": "👥",
+      "type": "INIZIATIVA",
       "pilastro_primario": "STRATEGIA",
-      "testo": "Creazione comitato supervisione governance formale con mandato approvato dal consiglio. Membri: Direttore Tecnologia presidente, Direttore Finanziario, Direttore Operazioni, Responsabile Acquisti, Responsabile Sostenibilità. Riunione mensile più revisione strategica trimestrale. Autorità decisionale su iniziative sostenibilità. Budget dedicato cinquecentomila euro triennale. Responsabile: Direttore Tecnologia.",
-      "flavor": "\"Senza governance, hai iniziative non trasformazione\"",
-      "classe": "iniziativa-strategia"
+      "description": "Comitato governance con mandato approvato dal board. Membri: CTO (presidente), CFO, Head of Procurement, Head of Engineering, Responsabile Sostenibilità. Riunione mensile + revisione trimestrale.",
+      "flavorText": "\"Senza governance, hai iniziative non trasformazione\"",
+      "styleClass": "iniziativa-strategia"
     },
     {
-      "titolo": "Formazione Sviluppatori Codifica Sostenibile",
-      "icona": "🎓",
-      "emoji": "👨‍💻",
-      "tipo": "INIZIATIVA",
+      "title": "Formazione Sviluppatori Codifica Sostenibile",
+      "headerIcon": "🎓",
+      "heroImage": "👨‍💻",
+      "type": "INIZIATIVA",
       "pilastro_primario": "STRATEGIA",
-      "testo": "Programma formazione team sviluppo su principi Green Software Foundation. Workshop due giorni: efficienza energetica, intensità carbonica, efficienza hardware. Cento sviluppatori formati in sei mesi. Certificazione opzionale. Budget formazione trentamila euro all'anno. Responsabile: team formazione e sviluppo.",
-      "flavor": "\"La conoscenza è il primo passo verso il cambiamento\"",
-      "classe": "iniziativa-strategia"
+      "description": "Formazione team sviluppo su principi Green Software Foundation: efficienza energetica, intensità carbonica, efficienza hardware. Workshop di 2 giorni. Budget: €30.000/anno. Team formazione.",
+      "flavorText": "\"La conoscenza è il primo passo verso il cambiamento\"",
+      "styleClass": "iniziativa-strategia"
     },
     {
-      "titolo": "Policy Procurement Sostenibile",
-      "icona": "📋",
-      "emoji": "✅",
-      "tipo": "INIZIATIVA",
+      "title": "Policy Procurement Sostenibile",
+      "headerIcon": "📋",
+      "heroImage": "✅",
+      "type": "INIZIATIVA",
       "pilastro_primario": "STRATEGIA",
-      "testo": "Policy formale procurement IT sostenibile con criteri obbligatori: EPEAT Gold device, iFixit Repairability Score minimo sei, conflict-free minerals certification, PUE inferiore a uno virgola due cloud provider, renewable energy commitment vendors. Approvata C-level, pubblicata intranet, enforcement tramite approval workflow procurement. Scorecard vendor con pesi: quaranta percento funzionale, trenta percento prezzo, trenta percento sustainability. Budget procurement sostenibile: duecentomila euro anno. Responsabile: team procurement con supporto sostenibilità.",
-      "flavor": "\"Procurement sostenibile non è più caro, è investimento long-term\"",
-      "classe": "iniziativa-strategia"
+      "description": "Policy procurement IT: EPEAT Gold, iFixit ≥6, conflict-free minerals, PUE <1,2, impegno rinnovabili vendor. Scorecard: 40% funzionale, 30% prezzo, 30% sostenibilità. Budget: €200.000/anno.",
+      "flavorText": "\"Procurement sostenibile non è più caro, è investimento long-term\"",
+      "styleClass": "iniziativa-strategia"
     },
     {
-      "titolo": "Pilastro STRATEGIA",
-      "icona": "🎯",
-      "emoji": "🗺️",
-      "tipo": "PILASTRO",
+      "title": "Pilastro STRATEGIA",
+      "headerIcon": "🎯",
+      "heroImage": "🗺️",
+      "type": "PILASTRO",
       "descrizione": "STRATEGIA definisce DOVE vogliamo arrivare e COME ci organizziamo. Include governance, obiettivi, competenze, visione lungo termine.",
-      "testo": "Il pilastro Strategia copre cinque aree chiave. Primo: formazione strategia, creazione comitato governance con mandato chiaro e autorità decisionale. Secondo: definizione obiettivi sostenibilità tecnologica, tradurli in OKR misurabili con risultati chiave e scadenze. Terzo: formazione e valutazione, costruire competenze team attraverso training strutturato. Quarto: obiettivi misurazione, definire ambiti uno due tre e metodologia Protocollo Gas Serra. Quinto: regolamentazione e integrazione, mappare requisiti normativi come CSRD ed integrarli nella strategia. ESEMPIO GREENFINANCE Q3 2023: Marco CTO e Luca R. Head Engineering avevano quindici iniziative non coordinate, problema tutti responsabili uguale nessuno responsabile. Soluzione: implementazione comitato governance formale, RACI matrix, Oversight Committee mensile. Risultato: cinque iniziative prioritizzate con budget quattrocentomila euro biennale.",
+      "description": "Copre governance, OKR, formazione team, definizione Scope 1-3, mappatura normativa CSRD. GreenFinance Q1 2024: comitato formale creato dopo il caos di 15 iniziative scoperto da Luca R.",
       "domande_guida": [
         "Questa iniziativa definisce obiettivi e governance?",
         "Ha impatto strategico a lungo termine?",
@@ -119,17 +122,17 @@
         "Costruisce competenze o capacità organizzative?",
         "Ha visibilità e sponsorizzazione esecutiva?"
       ],
-      "flavor": "\"Strategia senza esecuzione è allucinazione\"",
-      "classe": "pilastro-strategia",
+      "flavorText": "\"Strategia senza esecuzione è allucinazione\"",
+      "styleClass": "pilastro-strategia",
       "colore": "#4CAF50"
     },
     {
-      "titolo": "Pilastro IMPLEMENTAZIONE",
-      "icona": "🔧",
-      "emoji": "⚙️",
-      "tipo": "PILASTRO",
+      "title": "Pilastro IMPLEMENTAZIONE",
+      "headerIcon": "🔧",
+      "heroImage": "⚙️",
+      "type": "PILASTRO",
       "descrizione": "IMPLEMENTAZIONE traduce strategia in realtà. Include strumenti, automazione, raccolta dati, integrazioni.",
-      "testo": "Il pilastro Implementazione copre tre aree chiave. Primo: strumenti e automazione, selezionare e installare strumenti misurazione come Cloud Carbon Footprint, integrarli nella pipeline sviluppo e deployment. Secondo: raccolta dati, implementare telemetria e osservabilità per catturare metriche definite nella strategia, coprire tutti gli ambiti uno due tre. Terzo: integrazioni, far parlare gli strumenti tra loro, eliminare processi manuali, automatizzare flusso dati da misurazione a rendicontazione. ESEMPIO GREENFINANCE Q4 2023: installazione Cloud Carbon Footprint tool su tutti account AWS Azure, integrazione con Grafana dashboard, raccolta automatica dati Scope uno due. Risultato: da baseline manuale una tantum a tracking automatico mensile, sforzo ridotto da tre giorni persona mese a zero dopo setup.",
+      "description": "Copre strumenti e automazione, raccolta dati, integrazioni tra sistemi. GreenFinance, Q2 2024: Cloud Carbon Footprint su AWS/Azure integrato con Grafana, raccolta automatica Scope 1-2.",
       "domande_guida": [
         "Questa iniziativa implementa strumenti o automazione?",
         "Raccoglie dati automaticamente?",
@@ -137,17 +140,17 @@
         "Elimina processi manuali?",
         "Produce output utilizzabili da altri pilastri?"
       ],
-      "flavor": "\"Automazione è scalabilità, manuale è fragilità\"",
-      "classe": "pilastro-implementazione",
+      "flavorText": "\"Automazione è scalabilità, manuale è fragilità\"",
+      "styleClass": "pilastro-implementazione",
       "colore": "#2196F3"
     },
     {
-      "titolo": "Pilastro OPERAZIONI",
-      "icona": "⚡",
-      "emoji": "📊",
-      "tipo": "PILASTRO",
+      "title": "Pilastro OPERAZIONI",
+      "headerIcon": "⚡",
+      "heroImage": "📊",
+      "type": "PILASTRO",
       "descrizione": "OPERAZIONI mantiene i risultati nel tempo. Include monitoraggio continuo, ottimizzazione, miglioramento iterativo.",
-      "testo": "Il pilastro Operazioni copre due aree chiave. Primo: monitoraggio continuo, cruscotti in tempo reale accessibili a tutti gli interessati, avvisi automatici su anomalie, visibilità per chi può agire. Sviluppatori vedono impatto servizi, manager vedono andamento reparto, dirigenti vedono progresso obiettivo. Secondo: miglioramento continuo, retrospettive regolari con cadenza mensile o trimestrale, identificazione opportunità ottimizzazione, assegnazione responsabili e scadenze, implementazione modifiche, misurazione impatto. ESEMPIO GREENFINANCE Q1 2024: retrospettive mensili sustainability team, dodici retrospettive primo anno, trentasei opportunità identificate, ventiquattro implementate. Risultato: ottimizzazione server inattivi meno quindici percento emissioni, saving centoventimila euro anno.",
+      "description": "Copre monitoraggio continuo (cruscotti per stakeholder) e miglioramento continuo (retrospettive). GreenFinance: 12 retrospettive/anno, 36 opportunità, 24 implementate, -15% emissioni server.",
       "domande_guida": [
         "Questa iniziativa abilita monitoraggio continuo?",
         "Fornisce visibilità operativa quotidiana?",
@@ -155,17 +158,17 @@
         "Produce ottimizzazioni misurabili?",
         "Richiede gestione ongoing non progetto una tantum?"
       ],
-      "flavor": "\"Operazioni trasforma progetto in pratica\"",
-      "classe": "pilastro-operazioni",
+      "flavorText": "\"Operazioni trasforma progetto in pratica\"",
+      "styleClass": "pilastro-operazioni",
       "colore": "#FF9800"
     },
     {
-      "titolo": "Pilastro CONFORMITÀ",
-      "icona": "📋",
-      "emoji": "✅",
-      "tipo": "PILASTRO",
+      "title": "Pilastro CONFORMITÀ",
+      "headerIcon": "📋",
+      "heroImage": "✅",
+      "type": "PILASTRO",
       "descrizione": "CONFORMITÀ dimostra risultati all'esterno. Include requisiti normativi, rendicontazione, audit, trasparenza.",
-      "testo": "Il pilastro Conformità copre tre aree chiave. Primo: requisiti normativi, mappare direttiva europea CSRD, standard ESRS, tassonomia europea, capire cosa è obbligatorio e quando, pianificare raccolta dati necessari. Secondo: rendicontazione e divulgazione, preparare rapporti per CDP Carbon Disclosure Project, GRI Global Reporting Initiative, SASB Sustainability Accounting Standards Board secondo standard riconosciuti, pubblicazione trasparente. Terzo: audit e verifica, processo verifica interna ed esterna dei dati rendicontati, validazione qualità dati, certificazione quando richiesta. ESEMPIO GREENFINANCE Q2 2024: preparazione rendicontazione CSRD obbligatoria gennaio 2025, mappatura gap dati Scope tre, implementazione raccolta automatica emissioni fornitori. Risultato: compliance CSRD achieved sei mesi anticipo, CDP score B verso A.",
+      "description": "Copre requisiti normativi (CSRD, ESRS), rendicontazione (CDP, GRI, SASB), audit e verifica. GreenFinance Q3 2024: rapporto CSRD pronto con 9 mesi di anticipo, audit interno 0 criticità.",
       "domande_guida": [
         "Questa iniziativa risponde a requisiti normativi?",
         "Produce documentazione per audit?",
@@ -173,67 +176,66 @@
         "Segue standard riconosciuti CDP GRI SASB?",
         "Ha visibilità pubblica o verso investitori?"
       ],
-      "flavor": "\"Conformità è accountability, non burocrazia\"",
-      "classe": "pilastro-conformita",
+      "flavorText": "\"Conformità è accountability, non burocrazia\"",
+      "styleClass": "pilastro-conformita",
       "colore": "#9C27B0"
     },
     {
-      "titolo": "Scoring Rubric - Impact × Effort Matrix",
-      "icona": "🎯",
-      "emoji": "📐",
-      "tipo": "REFERENCE CARD",
-      "testo": "VALUTAZIONE GAP CON SCALA ZERO TRE. IMPACT impatto su obiettivi sostenibilità: zero uguale nessun impatto marginale. Uno uguale impatto basso migliora singola dimensione non critica. Due uguale impatto medio sblocca progression pilastro singolo. Tre uguale impatto alto prerequisito per altri gap oppure colma rischio normativo critico. EFFORT sforzo implementazione: zero uguale già completato. Uno uguale basso sotto due settimane, una persona, zero budget extra. Due uguale medio uno tre mesi, piccolo team, budget moderato sotto cinquantamila euro. Tre uguale alto oltre tre mesi, team dedicato, budget significativo oltre centomila euro. PRIORITIZATION MATRIX: Impact tre Effort uno uguale Quick Win MASSIMA priorità. Impact tre Effort due tre uguale Strategic Project priorità alta planning necessario. Impact uno due Effort tre uguale Deprioritize non ora. Impact due Effort uno uguale Fill-In fai se tempo extra. SCORING EXAMPLE: Gap Comitato Governance, Impact tre alto sblocca budget decisioni, Effort uno basso una riunione setup, Quadrant Quick Win. Gap Compliance CSRD, Impact tre alto obbligatorio legge evita multe, Effort due medio tre mesi raccolta dati, Quadrant Strategic Project.",
-      "flavor": "\"Prioritizzazione oggettiva batte gut feeling\"",
-      "classe": "reference"
+      "title": "Scoring Rubric - Impact × Effort Matrix",
+      "headerIcon": "🎯",
+      "heroImage": "📐",
+      "type": "REFERENCE CARD",
+      "description": "Scala 0-3 per Impact ed Effort. Impact 3+Effort 1 = Quick Win. Impact 3+Effort 2-3 = Strategic. Impact 1-2+Effort 3 = Deprioritize. Impact 2+Effort 1 = Fill-In. Dettagli: guida facilitatore.",
+      "flavorText": "\"Prioritizzazione oggettiva batte gut feeling\"",
+      "styleClass": "reference"
     },
     {
-      "titolo": "Template Gap Matrix Report",
-      "icona": "📝",
-      "emoji": "📄",
-      "tipo": "REFERENCE CARD",
-      "testo": "SOFT PILLAR GAP MATRIX REPORT. Data team partecipanti. COVERAGE PILASTRI ATTUALI: Strategia numero iniziative underscore. Implementazione numero underscore. Operazioni numero underscore. Conformità numero underscore. TOTALE iniziative underscore. GAP IDENTIFICATI SCORING IMPACT EFFORT: Gap uno Pilastro underscore descrizione gap. Impact zero tre underscore Effort zero tre underscore Quadrant underscore. Rationale: perché questo gap è prioritario. Gap due idem. Gap tre idem. TOP TRE AZIONI CORRETTIVE: Azione uno Nome azione specifica. Pilastro target underscore. Perché prioritaria underscore. Impact score tre. Effort score uno. Responsible R underscore Accountable A underscore. Deadline underscore settimane mesi. Expected outcome underscore. Azione due idem. Azione tre idem. ROADMAP BILANCIAMENTO PILASTRI: Q1 plus tre mesi azioni Quick Win completate target coverage Strategia più uno Conformità più uno. Q2 plus sei mesi azioni Strategic completate target coverage bilanciata tutti pilastri almeno due iniziative. COMMITMENT: Accountable roadmap bilanciamento underscore nome cognome. SOFT Champion nudge team progress underscore. Next checkpoint underscore data un mese. LESSON LEARNED: Pilastro più debole identificato underscore. Root cause gap underscore. Come preveniamo sbilanciamento futuro underscore.",
-      "flavor": "\"Documentazione è accountability\"",
-      "classe": "reference"
+      "title": "Template Gap Matrix Report",
+      "headerIcon": "📝",
+      "heroImage": "📄",
+      "type": "REFERENCE CARD",
+      "description": "Template per documentare: coverage per pilastro, gap con score Impact/Effort, top 3 azioni con RACI e deadline, roadmap Q1-Q2, commitment pubblico. Modello completo in guida studente.",
+      "flavorText": "\"Documentazione è accountability\"",
+      "styleClass": "reference"
     },
     {
-      "titolo": "Audit Energetico Infrastruttura On-Premise",
-      "icona": "🔍",
-      "emoji": "⚡",
-      "tipo": "INIZIATIVA",
+      "title": "Audit Energetico Infrastruttura On-Premise",
+      "headerIcon": "🔍",
+      "heroImage": "⚡",
+      "type": "INIZIATIVA",
       "pilastro_primario": "IMPLEMENTAZIONE",
-      "testo": "Audit completo infrastruttura on-premise per identificare inefficienze energetiche. Mappatura consumo energia server, rack e datacenter locale. Identificazione attrezzature obsolete con alto consumo. Analisi cooling efficiency. Assessment ridondanza UPS. Baseline energetica stabilita. Budget audit: 15.000 euro. Responsabile: team operazioni infrastruttura.",
-      "flavor": "\"L'audit è il primo passo verso la riduzione dei consumi\"",
-      "classe": "iniziativa-implementazione"
+      "description": "Audit infrastruttura on-premise: mappatura consumo energia server/rack/datacenter, attrezzature obsolete, cooling efficiency, ridondanza UPS. Baseline stabilita. Budget: €15.000. Team infrastruttura.",
+      "flavorText": "\"L'audit è il primo passo verso la riduzione dei consumi\"",
+      "styleClass": "iniziativa-implementazione"
     },
     {
-      "titolo": "Estensione Device Lifecycle Policy",
-      "icona": "♻️",
-      "emoji": "💻",
-      "tipo": "INIZIATIVA",
+      "title": "Estensione Device Lifecycle Policy",
+      "headerIcon": "♻️",
+      "heroImage": "💻",
+      "type": "INIZIATIVA",
       "pilastro_primario": "OPERAZIONI",
-      "testo": "Programma estensione ciclo vita dispositivi IT. Spostamento refresh da 3 a 4 anni per laptop e desktop. Implementazione upgrade modulare (SSD, RAM) invece di sostituzione totale. Partnership con vendor refurbishment. Riduzione capex 20%. Riduzione embodied carbon 40%. Risparmio 200.000 euro biennale. 10.000 dispositivi coperti. Responsabile: procurement e operazioni.",
-      "flavor": "\"Estendere il lifecycle significa ridurre waste e carbonio incorporato\"",
-      "classe": "iniziativa-operazioni"
+      "description": "Estensione ciclo vita dispositivi IT: refresh da 4 a 5 anni, upgrade modulare (SSD, RAM) invece di sostituzione, partnership refurbishment. -20% capex, -40% carbon, risparmio €200.000 biennale.",
+      "flavorText": "\"Estendere il lifecycle riduce waste e carbonio incorporato\"",
+      "styleClass": "iniziativa-operazioni"
     }
   ],
   "griglia_soft": {
-    "descrizione": "Griglia due per due con quattro quadranti rappresentanti i quattro pilastri SOFT",
+    "descrizione": "Griglia 2×2 con quattro quadranti rappresentanti i quattro pilastri SOFT",
     "layout": "Alto sinistra Strategia, Alto destra Implementazione, Basso destra Operazioni, Basso sinistra Conformità",
     "connessioni": "Frecce circolari: Strategia verso Implementazione verso Operazioni verso Conformità verso Strategia. Frecce feedback: da ogni pilastro verso gli altri per evidenziare interdipendenza.",
-    "scoring": "Per ogni gap identificato, score Impact zero tre e Effort zero tre. Plot su matrix due per due Impact asse Y, Effort asse X. Quattro quadranti prioritization: Quick Win, Strategic, Deprioritize, Fill-In."
+    "scoring": "Per ogni gap identificato, score Impact 0-3 ed Effort 0-3. Plot su matrix 2×2, Impact asse Y, Effort asse X. Quattro quadranti prioritization: Quick Win, Strategic, Deprioritize, Fill-In."
   },
   "istruzioni": {
-    "preparazione": "Stampa quattordici carte A6 su cartoncino trecento grammi: quattro Pilastri, otto Iniziative, due Reference Cards. Prepara griglia SOFT due per due su lavagna fisica o Miro Mural. Stampa Template Gap Matrix Report uno per team.",
-    "turno_uno": "INVENTARIO E MAPPATURA quindici minuti: Ogni partecipante scrive iniziative sostenibilità in corso su foglietti una per foglietto. Se zero iniziative usa otto carte Iniziativa fornite. Team discute mappatura ogni iniziativa a pilastro primario usando quattro carte Pilastro con domande guida. Posiziona foglietti su griglia. Conta iniziative per quadrante.",
-    "turno_due": "GAP ANALYSIS E SCORING dieci minuti: Identifica pilastri vuoti o quasi vuoti zero due iniziative. Per ogni gap score Impact zero tre e Effort zero tre usando carta Reference Scoring Rubric. Plotta gap su matrix Impact Effort. Identifica top tre gap prioritari Quadrant Quick Win o Strategic. Documenta su Template Gap Matrix.",
-    "turno_tre": "AZIONI CORRETTIVE cinque minuti: Per ogni gap top tre definisci azione correttiva specifica con Nome Pilastro target Perché Impact Effort Responsible Accountable Deadline. Crea roadmap trimestrale Q1 Q2 target coverage bilanciata. Nomina SOFT Champion accountable roadmap. Commitment esplicito owner azioni.",
-    "debrief": "DEBRIEF FINALE dieci minuti: Pattern Recognition tre minuti pilastro più debole root cause sbilanciamento. Risk Analysis tre minuti rischio normativo se Conformità vuota rischio execution se Strategia debole. Integration Commitment quattro minuti SOFT Champion nominato owner azioni confirmed next checkpoint un mese scheduled revisione trimestrale coverage pilastri.",
-    "risultato": "Template Gap Matrix Report compilato completo: coverage pilastri attuali numero iniziative più gap identificati con Impact Effort score più top tre azioni con Responsible Accountable Deadline più roadmap bilanciamento più commitment SOFT Champion più next checkpoint più lesson learned"
+    "preparazione": "Stampa 18 carte A6 su cartoncino 300 g: 4 Pilastri, 12 Iniziative, 2 Reference Cards. Prepara griglia SOFT 2×2 su lavagna fisica o Miro/Mural. Stampa il Template Gap Matrix Report, una copia per team.",
+    "turno_uno": "INVENTARIO (15 minuti): ogni partecipante scrive su foglietti le iniziative sostenibilità in corso, una per foglietto (5 min lavoro individuale + 10 min condivisione collettiva). Se zero iniziative, usa le 12 carte Iniziativa fornite come scenario.",
+    "turno_due": "MAPPATURA (10 minuti): il team discute e posiziona ogni iniziativa nel quadrante del pilastro primario, usando le 4 carte Pilastro e le relative domande guida. Conta le iniziative per quadrante.",
+    "turno_tre": "GAP ANALYSIS, SCORING E AZIONI (10 minuti): identifica i pilastri vuoti o quasi vuoti. Per ogni gap, score Impact 0-3 ed Effort 0-3 con la carta Reference Scoring Rubric. Definisci le prime 3 azioni correttive con Nome, Pilastro target, Responsible, Accountable, Deadline. Documenta sul Template Gap Matrix Report.",
+    "debrief": "DEBRIEF (10 minuti): Pattern Recognition (3 min) su pilastro più debole e root cause; Risk Analysis (3 min) su rischio normativo se Conformità è vuota e rischio esecutivo se Strategia è debole; Integration Commitment (4 min) con nomina SOFT Champion, commitment pubblico sulle azioni e conferma del checkpoint a 1 mese.",
+    "risultato": "Template Gap Matrix Report compilato: coverage pilastri, gap con score Impact/Effort, top 3 azioni con Responsible/Accountable/Deadline, roadmap di bilanciamento, commitment SOFT Champion, prossimo checkpoint, lesson learned."
   },
   "materiali_extra": {
     "framework_soft_url": "https://github.com/Green-Software-Foundation/SOFT",
-    "template_griglia": "PDF scaricabile griglia SOFT quattro quadranti con Impact Effort matrix",
-    "guida_facilitatore": "PDF con script facilitazione completo quaranta minuti incluso debrief",
-    "video_tutorial": "Venti minuti walkthrough esercizio passo passo con scoring example"
+    "template_griglia": "Template griglia SOFT 2×2 stampabile: assets/templates/03-soft-framework-grid.md",
+    "guida_facilitatore": "Guida facilitatore completa con script di facilitazione, gestione dinamiche di gruppo e nudge strategy post-esercizio (assets/exercises/esercizio_3_guida_facilitatore.md)"
   }
 }

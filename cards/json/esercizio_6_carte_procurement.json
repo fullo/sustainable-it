@@ -1,170 +1,172 @@
 {
-  "titolo": "Esercizio #6: Procurement Scorecard",
-  "sottotitolo": "Valuta vendor su criteri sostenibilità e costruisci una strategia procurement intelligente",
-  "icona_esercizio": "🤝",
-  "durata": "40 minuti (30 minuti esercizio + 10 minuti debrief)",
+  "title": "Esercizio #6: Vendor Sustainability Scorecard",
+  "subtitle": "Valuta i fornitori sul Triple Bottom Line (Planet, People, Profit) e costruisci un piano d'azione procurement",
+  "deckIcon": "🤝",
+  "cardBackIcon": "🃏",
+  "copyright": "© 2026 Francesco Fullone — CC BY-NC-SA 4.0",
+  "durata": "20 minuti (Fase 1: 5 minuti, Fase 2: 5 minuti, Fase 3: 10 minuti)",
   "partecipanti": "3-6 persone (Procurement, Sostenibilità, IT Operations, Finanza)",
-  "carte": [
+  "cards": [
     {
-      "titolo": "CloudCo - Cloud Provider Standard",
-      "icona": "☁️",
-      "emoji": "🏢",
-      "tipo": "VENDOR PROFILE",
-      "testo": "Cloud IaaS provider. Spend annual: seicentomila euro. PUE datacenter uno virgola otto alto. Renewable energy venti percento fossile resto. SLA uptime novantanove virgola zero percento. Carbon reporting: none available. SBTi target: no commitment. Price: venti percento below market. Support: basic ventiquattro ore response. Business criticality: alta mission-critical workload.\n\n**ESEMPIO GREENFINANCE:** Q1 2023 spend AWS duecentoquaranta virgola cinquanta euro al mese baseline feature notifiche, spike Q3 2023 quattrocentotrenta euro al mese uncontrolled growth. Q4 2023 Marco CTO applica procurement scorecard, trova: carbon reporting zero, renewable energy parziale, PUE non disclosed region-specific. Azione: renegotiation carbon transparency clause più workload migration low-carbon region Stockholm. Risultato: Q2 2024 spend controllato trecentoquindici euro al mese più carbon intensity ridotta meno trenta percento, saving centottantamila euro biennale più governance (Cap. 6).",
-      "flavor": "\"Cheap now, expensive later\"",
-      "classe": "vendor-cloud"
+      "title": "CloudCo - Cloud Provider Standard",
+      "headerIcon": "☁️",
+      "heroImage": "🏢",
+      "type": "VENDOR PROFILE",
+      "description": "Cloud IaaS. €600k/anno. Planet 1/5 (PUE 1,8, rinnovabili 20%, zero carbon reporting). People 2/5. Profit 4/5 (prezzo -20% mercato). Sostenibilità media 2,3/5. Criticità 5/5. Rinnovo: 6 mesi.",
+      "flavorText": "\"Il risparmio apparente nasconde il TCO reale\"",
+      "styleClass": "vendor-cloud"
     },
     {
-      "titolo": "GreenCloud - Cloud Provider Premium",
-      "icona": "☁️",
-      "emoji": "🌱",
-      "tipo": "VENDOR PROFILE",
-      "testo": "Cloud IaaS provider. Spend annual: settecentomila euro. PUE datacenter uno virgola due excellent. Renewable energy cento percento certified PPA. SLA uptime novantanove virgola nove percento. Carbon reporting: monthly account-specific breakdown. SBTi validated target net-zero duemilatrenta. Price: market rate. Support: premium quattro ore. Business criticality: alta strategic.",
-      "flavor": "\"Premium price, premium value long-term\"",
-      "classe": "vendor-cloud"
+      "title": "GreenCloud - Cloud Provider Premium",
+      "headerIcon": "☁️",
+      "heroImage": "🌱",
+      "type": "VENDOR PROFILE",
+      "description": "Cloud IaaS. €700k/anno. Planet 5/5 (PUE 1,2, rinnovabili 100% PPA, SBTi net-zero 2030). People 4/5. Profit 4/5 (prezzo di mercato, stabile). Sostenibilità media 4,3/5. Criticità 5/5. Rinnovo: 8 mesi.",
+      "flavorText": "\"Prezzo di mercato, valore fuori scala\"",
+      "styleClass": "vendor-cloud"
     },
     {
-      "titolo": "HardwareCorp - Supplier Tradizionale",
-      "icona": "💻",
-      "emoji": "📦",
-      "tipo": "VENDOR PROFILE",
-      "testo": "Hardware laptop desktop server. Spend annual: trecentomila euro. EPEAT: Silver basic. Embodied carbon LCA: not disclosed. Warranty: due anni standard. Repairability index: tre su dieci poor. Take-back program: none. Refurbishment: no option. Recycling: basic non-certified. CSR labels: none. Price: competitive fifteen percento below market.",
-      "flavor": "\"Buy cheap, replace often, landfill much\"",
-      "classe": "vendor-hardware"
+      "title": "HardwareCorp - Supplier Tradizionale",
+      "headerIcon": "💻",
+      "heroImage": "📦",
+      "type": "VENDOR PROFILE",
+      "description": "Hardware laptop/desktop/server. €300k/anno. Planet 1/5 (EPEAT Silver, no LCA, riparabilità 3/10, no ritiro). People 2/5. Profit 3/5 (prezzo -15% mercato). Sostenibilità media 2,0/5. Criticità 3/5.",
+      "flavorText": "\"Compri poco, sostituisci spesso, sprechi tanto\"",
+      "styleClass": "vendor-hardware"
     },
     {
-      "titolo": "CircularTech - Hardware Sostenibile",
-      "icona": "💻",
-      "emoji": "♻️",
-      "tipo": "VENDOR PROFILE",
-      "testo": "Hardware laptop desktop server. Spend annual: quattrocentomila euro. EPEAT: Gold plus Energy Star. Embodied carbon LCA: full disclosure per SKU. Warranty: cinque anni extended. Repairability index: otto su dieci excellent. Take-back program: R2 certified. Refurbishment: ottanta percento target. Recycling: e-Stewards certified. CSR labels: B Corp EcoVadis Gold. Price: market rate.",
-      "flavor": "\"Lifecycle thinking beats initial cost every time\"",
-      "classe": "vendor-hardware"
+      "title": "CircularTech - Hardware Sostenibile",
+      "headerIcon": "💻",
+      "heroImage": "♻️",
+      "type": "VENDOR PROFILE",
+      "description": "Hardware laptop/desktop/server. €400k/anno. Planet 5/5 (EPEAT Gold, R2 certified, riparabilità 8/10, ritiro 80%). People 4/5 (B Corp). Profit 4/5. Sostenibilità media 4,3/5. Criticità 3/5.",
+      "flavorText": "\"Il ciclo di vita conta più del prezzo d'acquisto\"",
+      "styleClass": "vendor-hardware"
     },
     {
-      "titolo": "SaaSVendor Legacy",
-      "icona": "📱",
-      "emoji": "🏛️",
-      "tipo": "VENDOR PROFILE",
-      "testo": "SaaS application business critical. Spend annual: duecentomila euro. Eco-design: no guidelines applied. Hardware compatibility: requires latest OS only max tre anni backward. Update management: forced auto-update no control. Carbon footprint: unknown not measured. Hosting: datacenter non-disclosed location. Sustainability reporting: none. Price: lock-in high switching cost. Business criticality: media replaceable.",
-      "flavor": "\"Legacy mindset in modern wrapper\"",
-      "classe": "vendor-saas"
+      "title": "SaaSVendor Legacy",
+      "headerIcon": "📱",
+      "heroImage": "🏛️",
+      "type": "VENDOR PROFILE",
+      "description": "SaaS business-critical. €200k/anno. Planet 1/5 (carbon ignoto, hosting non dichiarato). People 2/5. Profit 3/5 (lock-in alto, switching costoso). Sostenibilità media 2,0/5. Criticità 2/5.",
+      "flavorText": "\"Mentalità legacy in un involucro moderno\"",
+      "styleClass": "vendor-saas"
     },
     {
-      "titolo": "EcoSaaS - Application Green-First",
-      "icona": "📱",
-      "emoji": "🌿",
-      "tipo": "VENDOR PROFILE",
-      "testo": "SaaS application business. Spend annual: duecentocinquantamila euro. Eco-design: framework documented applied. Hardware compatibility: cinque anni backward excellent. Update management: granular control security separate features. Carbon footprint: SCI published per feature. Hosting: Google Cloud cento percento renewable. Sustainability reporting: quarterly detailed. Price: market rate competitive API-first migration easy.",
-      "flavor": "\"Green by design, not by accident\"",
-      "classe": "vendor-saas"
+      "title": "EcoSaaS - Application Green-First",
+      "headerIcon": "📱",
+      "heroImage": "🌿",
+      "type": "VENDOR PROFILE",
+      "description": "SaaS application. €250k/anno. Planet 5/5 (SCI pubblicato per feature, hosting Google Cloud 100% rinnovabile). People 4/5. Profit 4/5 (migrazione facile). Sostenibilità media 4,3/5. Criticità 3/5.",
+      "flavorText": "\"Verde per design, non per caso\"",
+      "styleClass": "vendor-saas"
     },
     {
-      "titolo": "GreenDev - Consulenza Sostenibile",
-      "icona": "🤝",
-      "emoji": "🌍",
-      "tipo": "VENDOR PROFILE",
-      "testo": "Consulenza development application management. Spend annual: seicentomila euro. Green coding training: certified team Green Software Foundation practitioners. Remote work: remote-first default max uno meeting onsite per quarter. Travel emissions: carbon offset all travel. Eco-design methodology: framework applied documented. Continuous improvement: quarterly sustainability retro. Sustainability commitment: SBTi validated. Price: premium ten percento. Team quality: excellent plus green expertise.",
-      "flavor": "\"Sustainability embedded in every sprint\"",
-      "classe": "vendor-services"
+      "title": "GreenDev - Consulenza Sostenibile",
+      "headerIcon": "🤝",
+      "heroImage": "🌍",
+      "type": "VENDOR PROFILE",
+      "description": "Consulenza sviluppo e gestione applicazioni. €600k/anno. Planet 4/5 (team certificato Green Software Foundation, remote-first). People 4/5. Profit 3/5 (premium +10%). Media 3,7/5. Criticità 3/5.",
+      "flavorText": "\"Sostenibilità incorporata in ogni sprint\"",
+      "styleClass": "vendor-services"
     },
     {
-      "titolo": "HyperScaler Edge - Datacenter Innovativo",
-      "icona": "🏢",
-      "emoji": "⚡",
-      "tipo": "VENDOR PROFILE",
-      "testo": "Hyperscale datacenter edge location. Spend annual: cinquecentomila euro. PUE: uno virgola uno best-in-class. Grid carbon intensity: cinquanta grammi CO2 per kWh hydro wind region. Renewable energy: cento percento onsite solar plus grid green. WUE water usage: zero virgola otto litri per kWh liquid cooling. Cooling: free cooling novanta percento anno. Sustainability reporting: real-time API carbon intensity. Uptime: novantanove virgola novantanove percento. Price: premium.",
-      "flavor": "\"Innovation pays dividends in efficiency and carbon\"",
-      "classe": "vendor-datacenter"
+      "title": "HyperScaler Edge - Datacenter Innovativo",
+      "headerIcon": "🏢",
+      "heroImage": "⚡",
+      "type": "VENDOR PROFILE",
+      "description": "Datacenter edge. €500k/anno. Planet 5/5 (PUE 1,1, rinnovabili 100% on-site, free cooling 90%). People 3/5 (disclosure limitata). Profit 4/5. Sostenibilità media 4,0/5. Criticità 3/5.",
+      "flavorText": "\"L'innovazione paga in efficienza e carbonio\"",
+      "styleClass": "vendor-datacenter"
     },
     {
-      "titolo": "Criterio Trasversale: CSR e Certificazioni",
-      "icona": "🎯",
-      "emoji": "✅",
-      "tipo": "CRITERIA CARD",
-      "testo": "Valuta vendor su labels e certificazioni sustainability riconosciute. Must have: almeno una certificazione credibile EcoVadis ISO quattordicimilauno LUCIE B Corp. Nice to have: multiple labels score alto EcoVadis Gold Platinum. Score: zero nessuna label, uno basic ISO, due EcoVadis Bronze, tre Silver, quattro Gold, cinque Platinum multiple.",
-      "flavor": "\"Certificazioni sono credibility check vendor commitment\"",
-      "classe": "criteria"
+      "title": "NetGreen — Network Infrastructure Provider",
+      "headerIcon": "🌐",
+      "heroImage": "📡",
+      "type": "VENDOR PROFILE",
+      "description": "Network equipment (routing, switching, firewall). €750k/anno. Planet 3/5 (Energy Star, LCA completo, no target carbonio). People 4/5 (audit filiera). Profit 4/5. Media 3,7/5. Criticità 4/5.",
+      "flavorText": "\"La rete è spesso dimenticata, ma consuma più di quanto pensi\"",
+      "styleClass": "vendor-network"
     },
     {
-      "titolo": "Criterio Trasversale: Carbon Transparency",
-      "icona": "🎯",
-      "emoji": "📊",
-      "tipo": "CRITERIA CARD",
-      "testo": "Valuta vendor su transparency carbon footprint pubblicato. Must have: Scope 1 e 2 disclosed. Nice to have: Scope 3 completo breakdown dettagliato verificato third-party. Pubblicazione su piattaforme riconosciute CDP ADEME GRI. Score: zero no disclosure, uno Scope 1 only, due Scope 1 e 2, tre Scope 1 2 3 basic, quattro Scope 1 2 3 detailed, cinque full transparency third-party verified CDP A-list.",
-      "flavor": "\"Se non misuri e pubblichi, non puoi migliorare\"",
-      "classe": "criteria"
+      "title": "CoolTech — Datacenter Cooling Solutions",
+      "headerIcon": "❄️",
+      "heroImage": "🌬️",
+      "type": "VENDOR PROFILE",
+      "description": "Cooling datacenter (free-cooling, liquid, immersion). €900k/anno. Planet 5/5 (PUE 1,11, free cooling 80%, net-zero 2035). People 3/5 (team piccolo). Profit 4/5. Media 4,0/5. Criticità 3/5.",
+      "flavorText": "\"Investire nel raffreddamento ripaga in energia\"",
+      "styleClass": "vendor-cooling"
     },
     {
-      "titolo": "Criterio Trasversale: GHG Reduction Targets",
-      "icona": "🎯",
-      "emoji": "🎯",
-      "tipo": "CRITERIA CARD",
-      "testo": "Valuta vendor su obiettivi riduzione GHG greenhouse gas validati. Must have: commitment reduction venti percento entro duemilatrenta baseline duemilaventi Paris-aligned. Nice to have: SBTi Science Based Targets initiative validated net-zero duemilacinquanta roadmap pubblica. Score: zero no target, uno generic commitment no numbers, due target venti percento, tre target trenta percento, quattro SBTi validated, cinque net-zero duemilatrenta leadership.",
-      "flavor": "\"Targets senza SBTi validation sono promesse vuote\"",
-      "classe": "criteria"
+      "title": "Criterio: Planet — Sostenibilità Ambientale",
+      "headerIcon": "🎯",
+      "heroImage": "🌍",
+      "type": "CRITERIA CARD",
+      "description": "Trasparenza carbonica, target SBTi, energia rinnovabile, economia circolare. Cloud: PUE e standard Real Time Cloud GSF (2025). Hardware: EPEAT, riparabilità, Right to Repair (31/7/2026).",
+      "flavorText": "\"Se non misuri e pubblichi, non puoi migliorare\"",
+      "styleClass": "criteria"
     },
     {
-      "titolo": "Criterio Technology: Hardware Circular Economy",
-      "icona": "🎯",
-      "emoji": "♻️",
-      "tipo": "CRITERIA CARD",
-      "testo": "Valuta vendor hardware su circular economy practices. Must have: take-back program fine vita recycling certified R2 e-Stewards. Nice to have: refurbishment target ottanta percento componenti riutilizzati, spare parts cinque anni availability, repairability index sei su dieci minimum. Score: zero no program, uno take-back basic, due recycling certified, tre refurbishment option, quattro repairability alto, cinque circular leader full lifecycle.",
-      "flavor": "\"Circular economy è la nuova economia period\"",
-      "classe": "criteria"
+      "title": "Criterio: People — Responsabilità Sociale",
+      "headerIcon": "🎯",
+      "heroImage": "🤝",
+      "type": "CRITERIA CARD",
+      "description": "Pratiche lavorative eque, diversità e inclusione, impatto sulla comunità, etica e trasparenza. Un fornitore carbon-neutral con sfruttamento in filiera resta insostenibile.",
+      "flavorText": "\"Carbon-neutral non basta se la filiera sfrutta le persone\"",
+      "styleClass": "criteria"
     },
     {
-      "titolo": "Criterio Technology: Cloud PUE e Renewable",
-      "icona": "🎯",
-      "emoji": "☁️",
-      "tipo": "CRITERIA CARD",
-      "testo": "Valuta cloud provider su PUE Power Usage Effectiveness e renewable energy. Must have: PUE inferiore uno virgola cinque documentato per region, renewable commitment sessanta percento entro duemilaventotto. Nice to have: PUE inferiore uno virgola due excellent, renewable cento percento oggi certified RECs PPA. Score: zero PUE sopra due, uno PUE uno virgola otto, due PUE uno virgola cinque, tre PUE uno virgola tre, quattro PUE uno virgola due, cinque PUE uno virgola uno più cento percento renewable.",
-      "flavor": "\"PUE e renewable sono non-negotiable per cloud sostenibile\"",
-      "classe": "criteria"
+      "title": "Criterio: Profit — Sostenibilità Economica",
+      "headerIcon": "🎯",
+      "heroImage": "📈",
+      "type": "CRITERIA CARD",
+      "description": "Salute finanziaria, resilienza del modello di business, TCO trasparente, capacità di innovazione (R&D). Un fornitore instabile taglia la sostenibilità per primo.",
+      "flavorText": "\"Un fornitore fragile oggi è un rischio domani\"",
+      "styleClass": "criteria"
     },
     {
-      "titolo": "Weighted Scoring Calculation - Guida Completa",
-      "icona": "🧮",
-      "emoji": "📐",
-      "tipo": "REFERENCE CARD",
-      "testo": "FORMULA CALCOLO WEIGHTED SCORE PROCUREMENT\n\nVALUTAZIONE TRE DIMENSIONI CON PESI:\n\n1. FUNCTIONAL CRITERIA quaranta percento peso:\n   • SLA Uptime, Performance, Support quality, Integration capability\n   • Score zero cinque per criterio\n   • Somma tutti i criteri functional diviso numero criteri uguale score medio functional\n\n2. PRICE CRITERIA trenta percento peso:\n   • Confronto prezzo vendor versus market benchmark\n   • Below market uguale score alto, Premium uguale score basso\n   • Score: cinque uguale venti percento below market, quattro uguale dieci percento below, tre uguale market rate, due uguale dieci percento premium, uno uguale venti percento premium, zero uguale oltre venti percento premium\n\n3. SUSTAINABILITY CRITERIA trenta percento peso:\n   • Score medio delle cinque Criteria Cards CSR Carbon Transparency GHG Targets Hardware Circular Cloud PUE\n   • Somma score tutte Criteria Cards diviso cinque uguale score medio sustainability\n\nFORMULA FINALE:\nWEIGHTED SCORE uguale parentesi Functional Score moltiplicato zero virgola quattro parentesi più parentesi Price Score moltiplicato zero virgola tre parentesi più parentesi Sustainability Score moltiplicato zero virgola tre parentesi\n\n**ESEMPIO CALCOLO VENDOR GREENCLOUD:**\nFunctional: SLA cinque, Performance cinque, Support quattro, Integration quattro uguale media quattro virgola cinque\nPrice: market rate uguale score tre\nSustainability: CSR quattro, Carbon cinque, GHG quattro, Circular n/a cloud, PUE cinque uguale media quattro virgola cinque\nWeighted Score uguale parentesi quattro virgola cinque moltiplicato zero virgola quattro parentesi più parentesi tre moltiplicato zero virgola tre parentesi più parentesi quattro virgola cinque moltiplicato zero virgola tre parentesi uguale uno virgola otto più zero virgola nove più uno virgola trentacinque uguale quattro virgola zero cinque su cinque EXCELLENT\n\n**ESEMPIO CALCOLO VENDOR CLOUDCO:**\nFunctional: SLA tre, Performance tre, Support due, Integration tre uguale media due virgola settantacinque\nPrice: venti percento below market uguale score cinque\nSustainability: CSR zero, Carbon zero, GHG uno, Circular n/a, PUE due uguale media zero virgola settantacinque\nWeighted Score uguale parentesi due virgola settantacinque moltiplicato zero virgola quattro parentesi più parentesi cinque moltiplicato zero virgola tre parentesi più parentesi zero virgola settantacinque moltiplicato zero virgola tre parentesi uguale uno virgola uno più uno virgola cinque più zero virgola ventidue uguale due virgola ottantadue su cinque MEDIUM\n\nBENCHMARK DECISIONALE:\n• Weighted Score sopra quattro uguale KEEP vendor strategico\n• Weighted Score tre quattro uguale MONITOR vendor accettabile ma migliorabile\n• Weighted Score due tre uguale RENEGOTIATE vendor richiede improvement plan\n• Weighted Score sotto due uguale REPLACE vendor non accettabile\n\nREGOLA ORO PROCUREMENT SOSTENIBILE:\nVendor con Sustainability Score sotto uno virgola cinque NON può compensare con prezzo basso. Soglia minima sustainability uno virgola cinque è non-negotiable indipendentemente da price.",
-      "flavor": "\"I numeri non mentono: procurement sostenibile non è più costoso se fatto bene\"",
-      "classe": "reference"
+      "title": "Criterio: Criticità Aziendale",
+      "headerIcon": "🎯",
+      "heroImage": "⚠️",
+      "type": "CRITERIA CARD",
+      "description": "Da 1 (sostituibile) a 5 (mission-critical): quanto la tua organizzazione dipende da questo fornitore. Incrociata con la Sostenibilità media, determina l'urgenza dell'azione.",
+      "flavorText": "\"La criticità decide l'urgenza, non il prezzo\"",
+      "styleClass": "criteria"
     },
     {
-      "titolo": "Template Vendor Assessment Report",
-      "icona": "📋",
-      "emoji": "📄",
-      "tipo": "REFERENCE CARD",
-      "testo": "TEMPLATE OUTPUT VENDOR ASSESSMENT COMPLETO\n\nVENDOR SCORECARD SUMMARY:\n\nVendor Name: [Nome vendor]\nCategoria: Cloud / Hardware / SaaS / Services / Datacenter\nSpend annual: [Euro/anno]\nBusiness criticality: Alta / Media / Bassa\n\nSCORE BREAKDOWN:\n├─ Functional Score: [zero cinque] / cinque\n│  ├─ SLA Uptime: [score]\n│  ├─ Performance: [score]\n│  ├─ Support Quality: [score]\n│  └─ Integration: [score]\n├─ Price Score: [zero cinque] / cinque\n│  └─ Benchmark: [percentuale below/above market]\n├─ Sustainability Score: [zero cinque] / cinque\n│  ├─ CSR Certificazioni: [zero cinque]\n│  ├─ Carbon Transparency: [zero cinque]\n│  ├─ GHG Reduction Targets: [zero cinque]\n│  ├─ Hardware Circular Economy: [zero cinque se applicabile]\n│  └─ Cloud PUE Renewable: [zero cinque se applicabile]\n└─ WEIGHTED SCORE FINALE: [zero cinque] / cinque\n\nDECISIONE PROCUREMENT:\n☐ KEEP - Vendor strategico score sopra quattro\n☐ MONITOR - Vendor accettabile score tre quattro\n☐ RENEGOTIATE - Improvement plan richiesto score due tre\n☐ REPLACE - Vendor non accettabile score sotto due\n\nGAP ANALYSIS SUSTAINABILITY:\nGap identificati: [Lista gap specifici]\nImpatto gap: Alto / Medio / Basso\nFeasibility improvement: Alta / Media / Bassa / Impossibile\n\nACTION PLAN:\n\nQuick Wins entro trenta giorni:\n1. [Azione specifica]\n   Owner: [Nome]\n   Deadline: [Data]\n   Impatto atteso: [Descrizione]\n\n2. [Azione]\n   Owner: [Nome]\n   Deadline: [Data]\n\nStrategic Projects tre sei mesi:\n1. [Progetto]\n   Owner: [Nome]\n   Budget: [Euro]\n   Milestone: [Date]\n\nRENEGOTIATION STRATEGY se applicabile:\n├─ Clausole da aggiungere contratto:\n│  • Carbon transparency reporting mensile\n│  • SBTi validation target entro [data]\n│  • Renewable energy commitment [percentuale] entro [anno]\n├─ SLA sustainability:\n│  • PUE commitment [valore]\n│  • Carbon intensity reporting API real-time\n└─ Penalty non-compliance: [Descrizione]\n\nALTERNATIVE VENDOR EVALUATION se Replace:\n├─ Vendor alternativo 1: [Nome]\n│  Weighted Score: [valore]\n│  Migration complexity: Alta / Media / Bassa\n│  Migration cost: [Euro]\n└─ Vendor alternativo 2: [Nome]\n   Weighted Score: [valore]\n\nCHECKPOINT FOLLOW-UP:\n├─ Week 2: Verifica avvio quick wins\n├─ Month 1: Checkpoint progresso azioni\n├─ Month 3: Renegotiation meeting se applicabile\n└─ Month 6: Re-assessment completo vendor score\n\nAPPROVAL:\nResponsabile Procurement: [Nome] [Data]\nResponsabile Sostenibilità: [Nome] [Data]\nCFO Approval se budget: [Nome] [Data]",
-      "flavor": "\"Template trasforma workshop in commitment concreto con accountability\"",
-      "classe": "reference"
+      "title": "Criterio: Scoring e Decision Matrix",
+      "headerIcon": "🎯",
+      "heroImage": "📊",
+      "type": "CRITERIA CARD",
+      "description": "Sostenibilità media = (Planet+People+Profit)/3. Sotto 3/5 il fornitore è scartato salvo deroga del CTO. A parità di punteggio totale, vince chi ha Sostenibilità più alta.",
+      "flavorText": "\"I numeri non mentono: la scorecard toglie l'alibi\"",
+      "styleClass": "criteria"
     },
     {
-      "titolo": "NetGreen — Network Infrastructure Provider",
-      "icona": "🌐",
-      "emoji": "📡",
-      "tipo": "VENDOR PROFILE",
-      "testo": "Categoria: Network equipment (routing, switching, firewall). Spesa annuale: €750k. Planet 3/5: Energy Star certified su tutti i modelli, documentazione consumo per modello disponibile, LCA completo per embodied carbon. Gap: no carbon target dichiarato, no renewable energy commitment. People 4/5: supply chain audit annuale, diversity policy attiva, formazione continua team supporto. Gap: nessun programma mentoring esterno. Profit 4/5: business robusto, R&D 8% fatturato, backward compatibility 10 anni. Gap: lock-in tecnologico medio-alto. Criticità aziendale: 4/5 (core infrastructure). Rinnovo contratto: Q1 2026.",
-      "flavor": "\"Il network è spesso dimenticato nel sustainability planning, ma consuma più di quanto pensi\"",
-      "classe": "vendor-network"
+      "title": "Guida al Calcolo — Sostenibilità Fornitore",
+      "headerIcon": "🧮",
+      "heroImage": "📐",
+      "type": "REFERENCE CARD",
+      "description": "Sostenibilità media = (Planet+People+Profit)/3, un decimale. Esempio: Planet 4, People 4, Profit 5 → media 4,3/5. Sotto 3/5 il fornitore è scartato salvo deroga del CTO.",
+      "flavorText": "\"La formula sta sulla carta, il giudizio resta vostro\"",
+      "styleClass": "reference"
     },
     {
-      "titolo": "CoolTech — Datacenter Cooling Solutions",
-      "icona": "❄️",
-      "emoji": "🌬️",
-      "tipo": "VENDOR PROFILE",
-      "testo": "Categoria: Cooling solutions (free-cooling, liquid-cooling, immersion). Spesa annuale: €900k. Planet 5/5: liquid cooling abbassa PUE a 1.11, free cooling 80% ore annue, carbon offset su tutte le emissioni di produzione, SBTi target net-zero 2035. People 3/5: B Corp certified, salari equi. Gap: team piccolo, nessun programma accessibilità, supply chain audit limitato. Profit 4/5: tecnologia innovativa, brevetti proprietari, premium pricing ma break-even in 24 mesi grazie a -27% energy consumption. Gap: single-source risk, azienda giovane. Criticità aziendale: 3/5 (importante ma sostituibile). Rinnovo contratto: Q4 2025.",
-      "flavor": "\"Investire in cooling innovativo paga dividendi in energia e carbonio\"",
-      "classe": "vendor-cooling"
+      "title": "Template Vendor Assessment Report",
+      "headerIcon": "📋",
+      "heroImage": "📄",
+      "type": "REFERENCE CARD",
+      "description": "Per ogni fornitore: punteggi Planet/People/Profit, media Sostenibilità, Criticità, decisione (Mantieni/Rinegozia/Migliora/Sostituisci), owner, tempistiche, criterio di successo.",
+      "flavorText": "\"Il template trasforma l'esercizio in impegno concreto\"",
+      "styleClass": "reference"
     }
   ],
   "istruzioni": {
-    "preparazione": "Stampa le carte in formato A6 su cartoncino da trecento grammi. Oppure usa la versione digitale su lavagna Miro con Vendor Evaluation Matrix template. Assicurati che tutti i partecipanti abbiano accesso alle Vendor Profile Cards e alle cinque Criteria Cards più due Reference Cards Weighted Scoring e Template Report.",
-    "turno_uno": "SELEZIONA VENDOR, dieci minuti: Team identifica tre vendor critici da valutare. Criterio: high spend oltre centomila euro anno, strategic importance alta o media, sustainability risk potenziale. Pesca tre Vendor Profile Cards o usa vendor reali contesto organizzazione. Assegna responsabile valutazione per ogni vendor. Output: tre vendor selezionati con responsabile assessment nominato.",
-    "turno_due": "APPLY SCORECARD, quindici minuti: Per ogni vendor compila Vendor Evaluation Matrix completa. Usa Reference Card Weighted Scoring Calculation come guida. Score zero cinque ogni criterio usando cinque Criteria Cards. Calcola Functional Score medio SLA Performance Support Integration. Calcola Price Score benchmark market. Calcola Sustainability Score medio cinque criteri CSR Carbon GHG Circular PUE. Applica formula weighted: Functional quaranta percento più Price trenta percento più Sustainability trenta percento. Output: scorecard compilata per tre vendor con weighted score finale.",
-    "turno_tre": "DECISION MATRIX, cinque minuti: Plotta tre vendor su matrix due assi: asse X uguale Sustainability Score zero cinque, asse Y uguale Business Criticality Alta Media Bassa. Quadrant decision logic: Q1 alto sustainability alta criticality uguale KEEP vendor strategico. Q2 basso sustainability alta criticality uguale RENEGOTIATE urgente. Q3 basso sustainability bassa criticality uguale REPLACE priorità media. Q4 alto sustainability bassa criticality uguale MONITOR. Identifica azioni per ogni vendor basato su quadrante. Output: decision matrix con tre vendor posizionati e azioni assegnate.",
-    "turno_quattro": "DEBRIEF E COMMITMENT, dieci minuti: Usa Template Vendor Assessment Report Reference Card. Pattern Recognition tre minuti: quali pattern emergono dai vendor valutati? Tutti score sustainability basso? Gap comuni? Risk Analysis tre minuti: quali vendor rappresentano rischio normativo CSRD? Quali vendor bloccano obiettivi net-zero? Integration Commitment quattro minuti: compila action plan con owner e deadline. Nomina Procurement Champion responsabile follow-up. Schedula checkpoint month uno. Output: Vendor Assessment Report completo con action plan approvato e commitment team.",
-    "risultato": "Vendor Assessment Report completo per tre vendor: scorecard dettagliata weighted score, gap identification sustainability, decision rationale quadrant-based, action plan con owner timeline, renegotiation strategy se applicabile, alternative vendor se replace, checkpoint follow-up schedulati"
+    "preparazione": "Stampa le 17 carte (10 Vendor Profile + 5 Criteria + 2 Reference) in formato A6 su cartoncino da 300 grammi. Oppure usa la versione digitale su lavagna Miro con il template Vendor Evaluation Matrix. Tieni sempre visibili le 5 Criteria Cards e le 2 Reference Cards durante l'esercizio.",
+    "nota_normativa": "Aggiornamento 2026: l'Omnibus ha alzato le soglie CSRD a oltre 1.000 dipendenti e 450 milioni di euro di fatturato. Sotto soglia vale lo standard volontario VSME e il rischio normativo si riformula come richieste dati Scope 3 dai clienti enterprise obbligati, non come sanzione diretta.",
+    "fase_uno": "VALUTAZIONE INDIVIDUALE, 5 minuti: ogni partecipante riceve 3 Vendor Profile Cards casuali (o usa vendor reali della propria organizzazione). Per ogni fornitore calcola la Sostenibilità media = (Planet + People + Profit) / 3. Posiziona il fornitore sulla matrice decisionale: asse X Sostenibilità (0-5), asse Y Criticità Aziendale (1-5). Output: 3 fornitori valutati a testa con punteggio calcolato e posizione in matrice.",
+    "fase_due": "PRIORITIZZAZIONE, 5 minuti: il team consolida tutti i fornitori valutati su un'unica matrice decisionale condivisa. Identifica la zona rossa: Sostenibilità sotto 3/5 e Criticità alta (4-5). Questi fornitori sono la priorità urgente della sessione. Output: matrice condivisa con la zona rossa identificata e i fornitori ordinati per urgenza.",
+    "fase_tre": "PIANO D'AZIONE, 10 minuti: per ogni fornitore in zona rossa (e per gli altri se il tempo lo consente) il team sceglie una delle 4 azioni. Mantieni e Monitora: sostenibilità buona, qualunque criticità; check-in trimestrale. Rinegozia: fornitore critico con gap; clausole dal Clause Book entro la data di rinnovo, target +1 punto in 6 mesi. Migliora: fornitore non critico con gap; finestra di 12 mesi, altrimenti sostituzione al rinnovo. Sostituisci: fornitore critico con sostenibilità inaccettabile; alternative entro 6 mesi, migrazione entro 12 mesi. Per ogni fornitore assegna decisione, owner, tempistiche e criterio di successo. Output: Vendor Assessment Report con azione, owner e tempistiche per ogni fornitore prioritario.",
+    "risultato": "Vendor Assessment Report completo: fornitori valutati con punteggio Sostenibilità e Criticità Aziendale, zona rossa identificata, decisione (Mantieni/Rinegozia/Migliora/Sostituisci) con owner, tempistiche e criterio di successo per ogni fornitore prioritario."
   }
 }
