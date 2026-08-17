@@ -1,4 +1,4 @@
-# OKR the Right Way — Repository
+# Sustainable IT the Right Way — Repository
 
 Materiali di supporto al libro "[Sustainable IT the Right Way](https://leanpub.com/sustainable-it)" di Francesco Fullone.
 
